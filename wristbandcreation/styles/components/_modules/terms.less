@@ -1,0 +1,124 @@
+.section-tabs {
+  .nav-tabs {
+	border: 0;
+	li {
+	  float: none;
+	  margin-bottom: -1px;
+	  a {
+		font-family: 'ProximaNovaReg';
+		color: #afafaf;
+		font-size: 18px;
+		border: 0;
+
+		&:hover {
+		  background: transparent;
+		  color: #00b9ff;
+		  border: 0;
+		  outline: 0;
+		}
+
+	  }
+	}
+  }
+
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	border: 0;
+	color: #00b9ff;
+  }
+
+  .nav > li > a:hover, .nav > li > a:focus {
+	background-color: transparent;
+  }
+}
+
+.terms {
+	.tabs-left {
+		text-align: right;
+	}
+
+	.tab-content {
+		margin-left: 20px;
+	}
+
+	h1 {
+    	font-family: "ProximaNovaLight";
+	  	margin-bottom: 1.5em;
+	}
+	p {
+		font-family: 'ProximaNovaReg';
+		font-size: 18px;
+		color: #202020;
+		line-height: 30px;
+	}
+	.parag-title {
+		font-size: 21px;
+		color: #202020;
+		font-family: 'ProximaNovaReg';
+	}
+	.lists {
+		list-style-type: disc;
+
+		li {
+			display: block;
+			margin-bottom: 10px;
+			line-height: 30px;
+			position: relative;
+			padding-left: 23px;
+		  	font-size: 18px;
+
+			&:before {
+				content: '';
+			    position: absolute;
+			    width: 4px;
+			    height: 4px;
+			    border-radius: 50%;
+			    background-color: #000;
+			    left: 0;
+			    top: 14px;
+			}
+
+			span {
+				display: block;
+			}
+		}
+	}
+
+	.contact {
+		margin-bottom: 35px;
+		li {
+			display: block;
+			font-family: @proxima-bold;
+			margin-bottom: 5px;
+			font-size: 18px;
+			max-width: 200px;
+		}
+	}
+
+	#sitemap {
+		ul {
+			li {
+				display: block;
+				position: relative;
+				padding-left: 22px;
+
+				&:before {
+					content:'';
+					content: "\f105";
+				    font: normal normal normal 14px/1 FontAwesome;
+					position: absolute;
+					left: 0;
+					top: 9px;
+					color: #00b9ff;
+					font-weight: bold;
+    				font-size: 15px;
+				}
+				a {
+					color: #202020;
+					font-size: 18px;
+					font-family: 'ProximaNovaReg';
+				}
+			}
+		}
+	}
+
+}

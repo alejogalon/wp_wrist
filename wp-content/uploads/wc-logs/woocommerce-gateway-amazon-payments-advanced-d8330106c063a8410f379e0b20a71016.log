@@ -1,0 +1,214 @@
+10-19-2016 @ 22:41:38 - WC_Amazon_Payments_Advanced_API::request - GET: https://mws.amazonservices.com/OffAmazonPayments_Sandbox/2013-01-01/?AWSAccessKeyId=AKIAJ4BQAQSUMZVG7EVQ&Action=GetOrderReferenceDetails&AmazonOrderReferenceId=S00-0000000-0000000&SellerId=A23OXSFIXMU12&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2016-10-20T05%3A41%3A38Z&Signature=fBU%2FhGNHdM5nCqZZ7eWjIZg1mHISxhGWVUuGssEn4Hw%3D
+10-19-2016 @ 22:41:40 - WC_Amazon_Payments_Advanced_API::request - Response: <?xml version="1.0"?>
+<ErrorResponse xmlns="http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01">
+  <Error>
+    <Type>Sender</Type>
+    <Code>InvalidOrderReferenceId</Code>
+    <Message>The OrderReferenceId S00-0000000-0000000 is invalid.</Message>
+  </Error>
+  <RequestId>510c586d-b7a3-4c67-b108-07f62c8f6777</RequestId>
+</ErrorResponse>
+
+10-19-2016 @ 23:03:42 - WC_Amazon_Payments_Advanced_API::request - GET: https://mws.amazonservices.com/OffAmazonPayments_Sandbox/2013-01-01/?AWSAccessKeyId=AKIAJ4BQAQSUMZVG7EVQ&Action=GetOrderReferenceDetails&AmazonOrderReferenceId=S00-0000000-0000000&SellerId=A23OXSFIXMU12&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2016-10-20T06%3A03%3A42Z&Signature=VRbkWHvCVGQF86pC7W2xOCr2fwPrHiEJDldtIBNITQM%3D
+10-19-2016 @ 23:03:44 - WC_Amazon_Payments_Advanced_API::request - Response: <?xml version="1.0"?>
+<ErrorResponse xmlns="http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01">
+  <Error>
+    <Type>Sender</Type>
+    <Code>InvalidOrderReferenceId</Code>
+    <Message>The OrderReferenceId S00-0000000-0000000 is invalid.</Message>
+  </Error>
+  <RequestId>9e365ba8-63e7-4d90-88b8-97a61530a804</RequestId>
+</ErrorResponse>
+
+11-01-2016 @ 23:08:24 - WC_Amazon_Payments_Advanced_API::request - GET: https://mws.amazonservices.com/OffAmazonPayments_Sandbox/2013-01-01/?AWSAccessKeyId=AKIAJ4BQAQSUMZVG7EVQ&Action=GetOrderReferenceDetails&AmazonOrderReferenceId=S01-4340945-1861729&SellerId=A23OXSFIXMU12&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2016-11-02T06%3A08%3A24Z&Signature=PNWBLsEN%2F%2BdEsjx3o4yKj2QSrbPQ1hN0UvnJuSX7eVg%3D
+11-01-2016 @ 23:08:26 - WC_Amazon_Payments_Advanced_API::request - Response: <?xml version="1.0"?>
+<GetOrderReferenceDetailsResponse xmlns="http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01">
+  <GetOrderReferenceDetailsResult>
+    <OrderReferenceDetails>
+      <OrderReferenceStatus>
+        <State>Draft</State>
+      </OrderReferenceStatus>
+      <Destination>
+        <DestinationType>Physical</DestinationType>
+        <PhysicalDestination> REMOVED </PhysicalDestination>
+      </Destination>
+      <ExpirationTimestamp>2017-05-01T06:08:02.593Z</ExpirationTimestamp>
+      <IdList/>
+      <SellerOrderAttributes/>
+      <Constraints>
+        <Constraint>
+          <ConstraintID>AmountNotSet</ConstraintID>
+          <Description>The seller has not set the amount for the Order Reference.</Description>
+        </Constraint>
+      </Constraints>
+      <ReleaseEnvironment>Sandbox</ReleaseEnvironment>
+      <AmazonOrderReferenceId>S01-4340945-1861729</AmazonOrderReferenceId>
+      <CreationTimestamp>2016-11-02T06:08:02.593Z</CreationTimestamp>
+      <RequestPaymentAuthorization>false</RequestPaymentAuthorization>
+    </OrderReferenceDetails>
+  </GetOrderReferenceDetailsResult>
+  <ResponseMetadata>
+    <RequestId>fca0d7b1-95c6-41cd-89a9-969df214add0</RequestId>
+  </ResponseMetadata>
+</GetOrderReferenceDetailsResponse>
+
+11-01-2016 @ 23:14:46 - WC_Amazon_Payments_Advanced_API::request - GET: https://mws.amazonservices.com/OffAmazonPayments_Sandbox/2013-01-01/?AWSAccessKeyId=AKIAJ4BQAQSUMZVG7EVQ&Action=GetOrderReferenceDetails&AmazonOrderReferenceId=S01-4340945-1861729&SellerId=A23OXSFIXMU12&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2016-11-02T06%3A14%3A46Z&Signature=rKIMx%2BEvzT%2BMxwWrYRSwozqAw88YsMRlfl%2Bck6KRuP0%3D
+11-01-2016 @ 23:14:48 - WC_Amazon_Payments_Advanced_API::request - Response: <?xml version="1.0"?>
+<GetOrderReferenceDetailsResponse xmlns="http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01">
+  <GetOrderReferenceDetailsResult>
+    <OrderReferenceDetails>
+      <OrderReferenceStatus>
+        <State>Draft</State>
+      </OrderReferenceStatus>
+      <Destination>
+        <DestinationType>Physical</DestinationType>
+        <PhysicalDestination> REMOVED </PhysicalDestination>
+      </Destination>
+      <ExpirationTimestamp>2017-05-01T06:08:02.593Z</ExpirationTimestamp>
+      <IdList/>
+      <Constraints>
+        <Constraint>
+          <ConstraintID>AmountNotSet</ConstraintID>
+          <Description>The seller has not set the amount for the Order Reference.</Description>
+        </Constraint>
+      </Constraints>
+      <SellerOrderAttributes/>
+      <ReleaseEnvironment>Sandbox</ReleaseEnvironment>
+      <AmazonOrderReferenceId>S01-4340945-1861729</AmazonOrderReferenceId>
+      <CreationTimestamp>2016-11-02T06:08:02.593Z</CreationTimestamp>
+      <RequestPaymentAuthorization>false</RequestPaymentAuthorization>
+    </OrderReferenceDetails>
+  </GetOrderReferenceDetailsResult>
+  <ResponseMetadata>
+    <RequestId>920df279-fdae-4371-816a-be4c406e5705</RequestId>
+  </ResponseMetadata>
+</GetOrderReferenceDetailsResponse>
+
+11-01-2016 @ 23:15:14 - WC_Amazon_Payments_Advanced_API::request - GET: https://mws.amazonservices.com/OffAmazonPayments_Sandbox/2013-01-01/?AWSAccessKeyId=AKIAJ4BQAQSUMZVG7EVQ&Action=GetOrderReferenceDetails&AmazonOrderReferenceId=S01-4340945-1861729&SellerId=A23OXSFIXMU12&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2016-11-02T06%3A15%3A14Z&Signature=%2FOfbdZaVgDAR1lT95blxXrr%2FtTI%2BIoHnGxYTSXrDTTo%3D
+11-01-2016 @ 23:15:17 - WC_Amazon_Payments_Advanced_API::request - Response: <?xml version="1.0"?>
+<GetOrderReferenceDetailsResponse xmlns="http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01">
+  <GetOrderReferenceDetailsResult>
+    <OrderReferenceDetails>
+      <OrderReferenceStatus>
+        <State>Draft</State>
+      </OrderReferenceStatus>
+      <Destination>
+        <DestinationType>Physical</DestinationType>
+        <PhysicalDestination> REMOVED </PhysicalDestination>
+      </Destination>
+      <ExpirationTimestamp>2017-05-01T06:08:02.593Z</ExpirationTimestamp>
+      <IdList/>
+      <SellerOrderAttributes/>
+      <Constraints>
+        <Constraint>
+          <ConstraintID>AmountNotSet</ConstraintID>
+          <Description>The seller has not set the amount for the Order Reference.</Description>
+        </Constraint>
+      </Constraints>
+      <ReleaseEnvironment>Sandbox</ReleaseEnvironment>
+      <AmazonOrderReferenceId>S01-4340945-1861729</AmazonOrderReferenceId>
+      <CreationTimestamp>2016-11-02T06:08:02.593Z</CreationTimestamp>
+      <RequestPaymentAuthorization>false</RequestPaymentAuthorization>
+    </OrderReferenceDetails>
+  </GetOrderReferenceDetailsResult>
+  <ResponseMetadata>
+    <RequestId>fd0cb2ac-3a58-4b9d-a272-abebf3adc436</RequestId>
+  </ResponseMetadata>
+</GetOrderReferenceDetailsResponse>
+
+11-01-2016 @ 23:21:18 - WC_Amazon_Payments_Advanced_API::request - GET: https://mws.amazonservices.com/OffAmazonPayments_Sandbox/2013-01-01/?AWSAccessKeyId=AKIAJ4BQAQSUMZVG7EVQ&Action=GetOrderReferenceDetails&AmazonOrderReferenceId=S01-4340945-1861729&SellerId=A23OXSFIXMU12&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2016-11-02T06%3A21%3A18Z&Signature=hDmHekXV04CrvmYXlq%2FRnTuvY5mFrA5fxjMkozjxyYY%3D
+11-01-2016 @ 23:21:20 - WC_Amazon_Payments_Advanced_API::request - Response: <?xml version="1.0"?>
+<GetOrderReferenceDetailsResponse xmlns="http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01">
+  <GetOrderReferenceDetailsResult>
+    <OrderReferenceDetails>
+      <OrderReferenceStatus>
+        <State>Draft</State>
+      </OrderReferenceStatus>
+      <Destination>
+        <DestinationType>Physical</DestinationType>
+        <PhysicalDestination> REMOVED </PhysicalDestination>
+      </Destination>
+      <ExpirationTimestamp>2017-05-01T06:08:02.593Z</ExpirationTimestamp>
+      <IdList/>
+      <SellerOrderAttributes/>
+      <Constraints>
+        <Constraint>
+          <ConstraintID>AmountNotSet</ConstraintID>
+          <Description>The seller has not set the amount for the Order Reference.</Description>
+        </Constraint>
+      </Constraints>
+      <ReleaseEnvironment>Sandbox</ReleaseEnvironment>
+      <AmazonOrderReferenceId>S01-4340945-1861729</AmazonOrderReferenceId>
+      <CreationTimestamp>2016-11-02T06:08:02.593Z</CreationTimestamp>
+      <RequestPaymentAuthorization>false</RequestPaymentAuthorization>
+    </OrderReferenceDetails>
+  </GetOrderReferenceDetailsResult>
+  <ResponseMetadata>
+    <RequestId>c3824229-3422-48b8-898c-ae76bfc147af</RequestId>
+  </ResponseMetadata>
+</GetOrderReferenceDetailsResponse>
+
+11-01-2016 @ 23:22:50 - WC_Amazon_Payments_Advanced_API::request - GET: https://mws.amazonservices.com/OffAmazonPayments_Sandbox/2013-01-01/?AWSAccessKeyId=AKIAJ4BQAQSUMZVG7EVQ&Action=GetOrderReferenceDetails&AmazonOrderReferenceId=S01-4340945-1861729&SellerId=A23OXSFIXMU12&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2016-11-02T06%3A22%3A50Z&Signature=OwjTGwh6X8acFx1rUDITVKr0h1yu261iY6%2BqKmp8MAE%3D
+11-01-2016 @ 23:22:51 - WC_Amazon_Payments_Advanced_API::request - Response: <?xml version="1.0"?>
+<GetOrderReferenceDetailsResponse xmlns="http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01">
+  <GetOrderReferenceDetailsResult>
+    <OrderReferenceDetails>
+      <OrderReferenceStatus>
+        <State>Draft</State>
+      </OrderReferenceStatus>
+      <Destination>
+        <DestinationType>Physical</DestinationType>
+        <PhysicalDestination> REMOVED </PhysicalDestination>
+      </Destination>
+      <ExpirationTimestamp>2017-05-01T06:08:02.593Z</ExpirationTimestamp>
+      <IdList/>
+      <Constraints>
+        <Constraint>
+          <ConstraintID>AmountNotSet</ConstraintID>
+          <Description>The seller has not set the amount for the Order Reference.</Description>
+        </Constraint>
+      </Constraints>
+      <SellerOrderAttributes/>
+      <ReleaseEnvironment>Sandbox</ReleaseEnvironment>
+      <AmazonOrderReferenceId>S01-4340945-1861729</AmazonOrderReferenceId>
+      <CreationTimestamp>2016-11-02T06:08:02.593Z</CreationTimestamp>
+      <RequestPaymentAuthorization>false</RequestPaymentAuthorization>
+    </OrderReferenceDetails>
+  </GetOrderReferenceDetailsResult>
+  <ResponseMetadata>
+    <RequestId>3d304d97-a4ef-4667-bc6c-37e77c08692e</RequestId>
+  </ResponseMetadata>
+</GetOrderReferenceDetailsResponse>
+
+11-01-2016 @ 23:31:53 - WC_Amazon_Payments_Advanced_API::request - GET: https://mws.amazonservices.com/OffAmazonPayments_Sandbox/2013-01-01/?AWSAccessKeyId=AKIAJ4BQAQSUMZVG7EVQ&Action=GetOrderReferenceDetails&AmazonOrderReferenceId=S01-4340945-1861729&SellerId=A23OXSFIXMU12&SignatureMethod=HmacSHA256&SignatureVersion=2&Timestamp=2016-11-02T06%3A31%3A53Z&Signature=DgN3TP%2FijxskkG%2BirU7vLgKWe6m6nkNdzUJjD1l2qsA%3D
+11-01-2016 @ 23:31:55 - WC_Amazon_Payments_Advanced_API::request - Response: <?xml version="1.0"?>
+<GetOrderReferenceDetailsResponse xmlns="http://mws.amazonservices.com/schema/OffAmazonPayments/2013-01-01">
+  <GetOrderReferenceDetailsResult>
+    <OrderReferenceDetails>
+      <OrderReferenceStatus>
+        <State>Draft</State>
+      </OrderReferenceStatus>
+      <Destination>
+        <DestinationType>Physical</DestinationType>
+        <PhysicalDestination> REMOVED </PhysicalDestination>
+      </Destination>
+      <ExpirationTimestamp>2017-05-01T06:08:02.593Z</ExpirationTimestamp>
+      <IdList/>
+      <SellerOrderAttributes/>
+      <Constraints>
+        <Constraint>
+          <ConstraintID>AmountNotSet</ConstraintID>
+          <Description>The seller has not set the amount for the Order Reference.</Description>
+        </Constraint>
+      </Constraints>
+      <ReleaseEnvironment>Sandbox</ReleaseEnvironment>
+      <AmazonOrderReferenceId>S01-4340945-1861729</AmazonOrderReferenceId>
+      <CreationTimestamp>2016-11-02T06:08:02.593Z</CreationTimestamp>
+      <RequestPaymentAuthorization>false</RequestPaymentAuthorization>
+    </OrderReferenceDetails>
+  </GetOrderReferenceDetailsResult>
+  <ResponseMetadata>
+    <RequestId>f852e435-f87e-43f2-ab6a-022cb7fe878d</RequestId>
+  </ResponseMetadata>
+</GetOrderReferenceDetailsResponse>
+

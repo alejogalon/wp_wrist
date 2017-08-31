@@ -1,0 +1,1442 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Document</title>
+<base target="classFrame">
+<link rel="stylesheet" href="../../resources/style.css" type="text/css">
+<script src="../../resources/scripts.js" type="text/javascript"></script>
+</head>
+<body class="documentation">
+<h1>Document</h1>
+
+
+
+
+
+
+<h2>Constructors</h2><div class="documentation-paragraph">
+<div id="Document(java.io.File, int, int)-link" class="member-link">
+<a name="Document(java.io.File, int, int)" href="#" onClick="return toggleMember('Document(java.io.File, int, int)', false);">
+<tt><b>Document</b>(file, colorModel, dialogStatus)</tt>
+</a>
+</div>
+<div id="Document(java.io.File, int, int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('Document(java.io.File, int, int)', false);"><tt><b>Document</b>(file, colorModel, dialogStatus)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('Document(java.io.File, int, int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Opens an existing document.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>file: </tt><tt>File</tt> - the file to read from
+	</div>
+	<div><tt>colorModel: </tt><tt>Number</tt> - the document's desired color model, Color.MODEL_*
+        values
+	</div>
+	<div><tt>dialogStatus: </tt><tt>Number</tt> - how dialogs should be handled, Document.DIALOG_*
+        values
+	</div>
+</div></div>
+</div>
+
+
+<div id="Document(java.lang.String, float, float, int, int)-link" class="member-link">
+<a name="Document(java.lang.String, float, float, int, int)" href="#" onClick="return toggleMember('Document(java.lang.String, float, float, int, int)', false);">
+<tt><b>Document</b>(title, width, height, colorModel, dialogStatus)</tt>
+</a>
+</div>
+<div id="Document(java.lang.String, float, float, int, int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('Document(java.lang.String, float, float, int, int)', false);"><tt><b>Document</b>(title, width, height, colorModel, dialogStatus)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('Document(java.lang.String, float, float, int, int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Creates a new document.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>title: </tt><tt>String</tt> - the title of the document
+	</div>
+	<div><tt>width: </tt><tt>Number</tt> - the width of the document
+	</div>
+	<div><tt>height: </tt><tt>Number</tt>	</div>
+	<div><tt>colorModel: </tt><tt>Number</tt>	</div>
+	<div><tt>dialogStatus: </tt><tt>Number</tt>	</div>
+</div></div>
+</div>
+
+</div>
+
+<h2>Properties</h2><div class="documentation-paragraph">
+<div id="activeLayer-link" class="member-link">
+<a name="activeLayer" href="#" onClick="return toggleMember('activeLayer', false);">
+<tt><b>activeLayer</b></tt>
+</a>
+</div>
+<div id="activeLayer-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('activeLayer', false);"><tt><b>activeLayer</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('activeLayer', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Layer.html">Layer</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="activeSymbol-link" class="member-link">
+<a name="activeSymbol" href="#" onClick="return toggleMember('activeSymbol', false);">
+<tt><b>activeSymbol</b></tt>
+</a>
+</div>
+<div id="activeSymbol-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('activeSymbol', false);"><tt><b>activeSymbol</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('activeSymbol', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Symbol.html">Symbol</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="activeView-link" class="member-link">
+<a name="activeView" href="#" onClick="return toggleMember('activeView', false);">
+<tt><b>activeView</b></tt>
+</a>
+</div>
+<div id="activeView-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('activeView', false);"><tt><b>activeView</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('activeView', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/DocumentView.html">DocumentView</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="compoundPathItems-link" class="member-link">
+<a name="compoundPathItems" href="#" onClick="return toggleMember('compoundPathItems', false);">
+<tt><b>compoundPathItems</b></tt>
+</a>
+</div>
+<div id="compoundPathItems-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('compoundPathItems', false);"><tt><b>compoundPathItems</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('compoundPathItems', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/ArtSet.html">ArtSet</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="cropBox-link" class="member-link">
+<a name="cropBox" href="#" onClick="return toggleMember('cropBox', false);">
+<tt><b>cropBox</b></tt>
+</a>
+</div>
+<div id="cropBox-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('cropBox', false);"><tt><b>cropBox</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('cropBox', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Rectangle.html">Rectangle</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="dictionary-link" class="member-link">
+<a name="dictionary" href="#" onClick="return toggleMember('dictionary', false);">
+<tt><b>dictionary</b></tt>
+</a>
+</div>
+<div id="dictionary-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('dictionary', false);"><tt><b>dictionary</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('dictionary', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Object</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="file-link" class="member-link">
+<a name="file" href="#" onClick="return toggleMember('file', false);">
+<tt><b>file</b></tt>
+</a>
+</div>
+<div id="file-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('file', false);"><tt><b>file</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('file', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>File</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="fileFormats-link" class="member-link">
+<a name="fileFormats" href="#" onClick="return toggleMember('fileFormats', false);">
+<tt><b>fileFormats</b></tt>
+</a>
+</div>
+<div id="fileFormats-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('fileFormats', false);"><tt><b>fileFormats</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('fileFormats', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Array of String</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="gradients-link" class="member-link">
+<a name="gradients" href="#" onClick="return toggleMember('gradients', false);">
+<tt><b>gradients</b></tt>
+</a>
+</div>
+<div id="gradients-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('gradients', false);"><tt><b>gradients</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('gradients', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/GradientList.html">GradientList</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="groupItems-link" class="member-link">
+<a name="groupItems" href="#" onClick="return toggleMember('groupItems', false);">
+<tt><b>groupItems</b></tt>
+</a>
+</div>
+<div id="groupItems-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('groupItems', false);"><tt><b>groupItems</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('groupItems', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/ArtSet.html">ArtSet</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="layers-link" class="member-link">
+<a name="layers" href="#" onClick="return toggleMember('layers', false);">
+<tt><b>layers</b></tt>
+</a>
+</div>
+<div id="layers-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('layers', false);"><tt><b>layers</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('layers', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/LayerList.html">LayerList</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="modified-link" class="member-link">
+<a name="modified" href="#" onClick="return toggleMember('modified', false);">
+<tt><b>modified</b></tt>
+</a>
+</div>
+<div id="modified-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('modified', false);"><tt><b>modified</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('modified', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="pageOrigin-link" class="member-link">
+<a name="pageOrigin" href="#" onClick="return toggleMember('pageOrigin', false);">
+<tt><b>pageOrigin</b></tt>
+</a>
+</div>
+<div id="pageOrigin-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('pageOrigin', false);"><tt><b>pageOrigin</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('pageOrigin', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Point.html">Point</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="pathItems-link" class="member-link">
+<a name="pathItems" href="#" onClick="return toggleMember('pathItems', false);">
+<tt><b>pathItems</b></tt>
+</a>
+</div>
+<div id="pathItems-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('pathItems', false);"><tt><b>pathItems</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('pathItems', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/ArtSet.html">ArtSet</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="rasterItems-link" class="member-link">
+<a name="rasterItems" href="#" onClick="return toggleMember('rasterItems', false);">
+<tt><b>rasterItems</b></tt>
+</a>
+</div>
+<div id="rasterItems-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('rasterItems', false);"><tt><b>rasterItems</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('rasterItems', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/ArtSet.html">ArtSet</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="rulerOrigin-link" class="member-link">
+<a name="rulerOrigin" href="#" onClick="return toggleMember('rulerOrigin', false);">
+<tt><b>rulerOrigin</b></tt>
+</a>
+</div>
+<div id="rulerOrigin-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('rulerOrigin', false);"><tt><b>rulerOrigin</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('rulerOrigin', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Point.html">Point</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="selectedItems-link" class="member-link">
+<a name="selectedItems" href="#" onClick="return toggleMember('selectedItems', false);">
+<tt><b>selectedItems</b></tt>
+</a>
+</div>
+<div id="selectedItems-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('selectedItems', false);"><tt><b>selectedItems</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('selectedItems', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/ArtSet.html">ArtSet</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="size-link" class="member-link">
+<a name="size" href="#" onClick="return toggleMember('size', false);">
+<tt><b>size</b></tt>
+</a>
+</div>
+<div id="size-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('size', false);"><tt><b>size</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('size', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Point.html">Point</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="stories-link" class="member-link">
+<a name="stories" href="#" onClick="return toggleMember('stories', false);">
+<tt><b>stories</b></tt>
+</a>
+</div>
+<div id="stories-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('stories', false);"><tt><b>stories</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('stories', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>TextStoryList</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="swatches-link" class="member-link">
+<a name="swatches" href="#" onClick="return toggleMember('swatches', false);">
+<tt><b>swatches</b></tt>
+</a>
+</div>
+<div id="swatches-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('swatches', false);"><tt><b>swatches</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('swatches', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/SwatchList.html">SwatchList</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="symbols-link" class="member-link">
+<a name="symbols" href="#" onClick="return toggleMember('symbols', false);">
+<tt><b>symbols</b></tt>
+</a>
+</div>
+<div id="symbols-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('symbols', false);"><tt><b>symbols</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('symbols', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/SymbolList.html">SymbolList</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="textItems-link" class="member-link">
+<a name="textItems" href="#" onClick="return toggleMember('textItems', false);">
+<tt><b>textItems</b></tt>
+</a>
+</div>
+<div id="textItems-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('textItems', false);"><tt><b>textItems</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('textItems', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/ArtSet.html">ArtSet</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="views-link" class="member-link">
+<a name="views" href="#" onClick="return toggleMember('views', false);">
+<tt><b>views</b></tt>
+</a>
+</div>
+<div id="views-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('views', false);"><tt><b>views</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('views', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/DocumentViewList.html">DocumentViewList</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="DIALOG_NONE-link" class="member-link">
+<a name="DIALOG_NONE" href="#" onClick="return toggleMember('DIALOG_NONE', false);">
+<tt><b>DIALOG_NONE</b></tt>
+</a>
+</div>
+<div id="DIALOG_NONE-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('DIALOG_NONE', false);"><tt><b>DIALOG_NONE</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('DIALOG_NONE', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="DIALOG_OFF-link" class="member-link">
+<a name="DIALOG_OFF" href="#" onClick="return toggleMember('DIALOG_OFF', false);">
+<tt><b>DIALOG_OFF</b></tt>
+</a>
+</div>
+<div id="DIALOG_OFF-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('DIALOG_OFF', false);"><tt><b>DIALOG_OFF</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('DIALOG_OFF', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="DIALOG_ON-link" class="member-link">
+<a name="DIALOG_ON" href="#" onClick="return toggleMember('DIALOG_ON', false);">
+<tt><b>DIALOG_ON</b></tt>
+</a>
+</div>
+<div id="DIALOG_ON-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('DIALOG_ON', false);"><tt><b>DIALOG_ON</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('DIALOG_ON', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="DIALOG_PARTIAL_ON-link" class="member-link">
+<a name="DIALOG_PARTIAL_ON" href="#" onClick="return toggleMember('DIALOG_PARTIAL_ON', false);">
+<tt><b>DIALOG_PARTIAL_ON</b></tt>
+</a>
+</div>
+<div id="DIALOG_PARTIAL_ON-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('DIALOG_PARTIAL_ON', false);"><tt><b>DIALOG_PARTIAL_ON</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('DIALOG_PARTIAL_ON', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+</div>
+
+
+
+<h2>Functions</h2><div class="documentation-paragraph">
+<div id="activate(boolean)-link" class="member-link">
+<a name="activate(boolean)" href="#" onClick="return toggleMember('activate(boolean)', false);">
+<tt><b>activate</b>(focus)</tt>
+</a>
+</div>
+<div id="activate(boolean)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('activate(boolean)', false);"><tt><b>activate</b>(focus)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('activate(boolean)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Activates this document, so all newly created art objects will be placed
+ in it.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>focus: </tt><tt>Boolean</tt> - When set to <tt>true</tt>, the document window is
+        brought to the front, otherwise the window sequence remains the
+        same.
+	</div>
+</div></div>
+</div>
+
+
+<div id="close()-link" class="member-link">
+<a name="close()" href="#" onClick="return toggleMember('close()', false);">
+<tt><b>close</b>()</tt>
+</a>
+</div>
+<div id="close()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('close()', false);"><tt><b>close</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('close()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Closes the document</div></div>
+</div>
+
+
+<div id="copy()-link" class="member-link">
+<a name="copy()" href="#" onClick="return toggleMember('copy()', false);">
+<tt><b>copy</b>()</tt>
+</a>
+</div>
+<div id="copy()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('copy()', false);"><tt><b>copy</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('copy()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Copies the selected items to the clipboard</div></div>
+</div>
+
+
+<div id="createAreaText(com.scriptographer.ai.Path, short)-link" class="member-link">
+<a name="createAreaText(com.scriptographer.ai.Path, short)" href="#" onClick="return toggleMember('createAreaText(com.scriptographer.ai.Path, short)', false);">
+<tt><b>createAreaText</b>(area[, orient])</tt>
+</a>
+</div>
+<div id="createAreaText(com.scriptographer.ai.Path, short)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createAreaText(com.scriptographer.ai.Path, short)', false);"><tt><b>createAreaText</b>(area[, orient])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createAreaText(com.scriptographer.ai.Path, short)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>area: </tt><tt><a href="../ai/Path.html">Path</a></tt>	</div>
+	<div><tt>orient: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/AreaText.html">AreaText</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createCircle(float, float, float)-link" class="member-link">
+<a name="createCircle(float, float, float)" href="#" onClick="return toggleMember('createCircle(float, float, float)', false);">
+<tt><b>createCircle</b>(x, y, radius)</tt>
+</a>
+</div>
+<div id="createCircle(float, float, float)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createCircle(float, float, float)', false);"><tt><b>createCircle</b>(x, y, radius)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createCircle(float, float, float)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>x: </tt><tt>Number</tt>	</div>
+	<div><tt>y: </tt><tt>Number</tt>	</div>
+	<div><tt>radius: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Path.html">Path</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createCircle(com.scriptographer.ai.Point, float)-link" class="member-link">
+<a name="createCircle(com.scriptographer.ai.Point, float)" href="#" onClick="return toggleMember('createCircle(com.scriptographer.ai.Point, float)', false);">
+<tt><b>createCircle</b>(center, radius)</tt>
+</a>
+</div>
+<div id="createCircle(com.scriptographer.ai.Point, float)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createCircle(com.scriptographer.ai.Point, float)', false);"><tt><b>createCircle</b>(center, radius)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createCircle(com.scriptographer.ai.Point, float)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>center: </tt><tt><a href="../ai/Point.html">Point</a></tt>	</div>
+	<div><tt>radius: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Path.html">Path</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createCompoundPath(com.scratchdisk.list.ExtendedList)-link" class="member-link">
+<a name="createCompoundPath(com.scratchdisk.list.ExtendedList)" href="#" onClick="return toggleMember('createCompoundPath(com.scratchdisk.list.ExtendedList)', false);">
+<tt><b>createCompoundPath</b>(children)</tt>
+</a>
+</div>
+<div id="createCompoundPath(com.scratchdisk.list.ExtendedList)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createCompoundPath(com.scratchdisk.list.ExtendedList)', false);"><tt><b>createCompoundPath</b>(children)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createCompoundPath(com.scratchdisk.list.ExtendedList)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>children: </tt><tt>ExtendedList</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/CompoundPath.html">CompoundPath</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createCompoundPath(com.scriptographer.ai.Art[])-link" class="member-link">
+<a name="createCompoundPath(com.scriptographer.ai.Art[])" href="#" onClick="return toggleMember('createCompoundPath(com.scriptographer.ai.Art[])', false);">
+<tt><b>createCompoundPath</b>(children)</tt>
+</a>
+</div>
+<div id="createCompoundPath(com.scriptographer.ai.Art[])-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createCompoundPath(com.scriptographer.ai.Art[])', false);"><tt><b>createCompoundPath</b>(children)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createCompoundPath(com.scriptographer.ai.Art[])', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>children: </tt><tt>Array of <i><a href="../ai/Art.html">Art</a></i></tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/CompoundPath.html">CompoundPath</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createCompoundPath(java.awt.Shape)-link" class="member-link">
+<a name="createCompoundPath(java.awt.Shape)" href="#" onClick="return toggleMember('createCompoundPath(java.awt.Shape)', false);">
+<tt><b>createCompoundPath</b>(shape)</tt>
+</a>
+</div>
+<div id="createCompoundPath(java.awt.Shape)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createCompoundPath(java.awt.Shape)', false);"><tt><b>createCompoundPath</b>(shape)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createCompoundPath(java.awt.Shape)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>shape: </tt><tt>Shape</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/CompoundPath.html">CompoundPath</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createGroup(com.scratchdisk.list.ExtendedList)-link" class="member-link">
+<a name="createGroup(com.scratchdisk.list.ExtendedList)" href="#" onClick="return toggleMember('createGroup(com.scratchdisk.list.ExtendedList)', false);">
+<tt><b>createGroup</b>(children)</tt>
+</a>
+</div>
+<div id="createGroup(com.scratchdisk.list.ExtendedList)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createGroup(com.scratchdisk.list.ExtendedList)', false);"><tt><b>createGroup</b>(children)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createGroup(com.scratchdisk.list.ExtendedList)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>children: </tt><tt>ExtendedList</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Group.html">Group</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createGroup(com.scriptographer.ai.Art[])-link" class="member-link">
+<a name="createGroup(com.scriptographer.ai.Art[])" href="#" onClick="return toggleMember('createGroup(com.scriptographer.ai.Art[])', false);">
+<tt><b>createGroup</b>(children)</tt>
+</a>
+</div>
+<div id="createGroup(com.scriptographer.ai.Art[])-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createGroup(com.scriptographer.ai.Art[])', false);"><tt><b>createGroup</b>(children)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createGroup(com.scriptographer.ai.Art[])', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>children: </tt><tt>Array of <i><a href="../ai/Art.html">Art</a></i></tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Group.html">Group</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createLayer()-link" class="member-link">
+<a name="createLayer()" href="#" onClick="return toggleMember('createLayer()', false);">
+<tt><b>createLayer</b>()</tt>
+</a>
+</div>
+<div id="createLayer()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createLayer()', false);"><tt><b>createLayer</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createLayer()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Layer.html">Layer</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createOval(com.scriptographer.ai.Rectangle, boolean)-link" class="member-link">
+<a name="createOval(com.scriptographer.ai.Rectangle, boolean)" href="#" onClick="return toggleMember('createOval(com.scriptographer.ai.Rectangle, boolean)', false);">
+<tt><b>createOval</b>(rect[, circumscribed])</tt>
+</a>
+</div>
+<div id="createOval(com.scriptographer.ai.Rectangle, boolean)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createOval(com.scriptographer.ai.Rectangle, boolean)', false);"><tt><b>createOval</b>(rect[, circumscribed])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createOval(com.scriptographer.ai.Rectangle, boolean)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Creates an oval shaped path</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>rect: </tt><tt><a href="../ai/Rectangle.html">Rectangle</a></tt>
+	</div>
+	<div><tt>circumscribed: </tt><tt>Boolean</tt> - if this is set to true the oval shaped path will be
+        created so the rectangle fits into it. If it's set to false the
+        oval path will fit within the rectangle.
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Path.html">Path</a></tt>
+ - the newly created path</div> 
+</div></div>
+</div>
+
+
+<div id="createPath(com.scratchdisk.list.ExtendedList)-link" class="member-link">
+<a name="createPath(com.scratchdisk.list.ExtendedList)" href="#" onClick="return toggleMember('createPath(com.scratchdisk.list.ExtendedList)', false);">
+<tt><b>createPath</b>(segments)</tt>
+</a>
+</div>
+<div id="createPath(com.scratchdisk.list.ExtendedList)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createPath(com.scratchdisk.list.ExtendedList)', false);"><tt><b>createPath</b>(segments)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createPath(com.scratchdisk.list.ExtendedList)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>segments: </tt><tt>ExtendedList</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Path.html">Path</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createPathText(com.scriptographer.ai.Path, short)-link" class="member-link">
+<a name="createPathText(com.scriptographer.ai.Path, short)" href="#" onClick="return toggleMember('createPathText(com.scriptographer.ai.Path, short)', false);">
+<tt><b>createPathText</b>(path[, orient])</tt>
+</a>
+</div>
+<div id="createPathText(com.scriptographer.ai.Path, short)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createPathText(com.scriptographer.ai.Path, short)', false);"><tt><b>createPathText</b>(path[, orient])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createPathText(com.scriptographer.ai.Path, short)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>path: </tt><tt><a href="../ai/Path.html">Path</a></tt>	</div>
+	<div><tt>orient: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/PathText.html">PathText</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createPointText(com.scriptographer.ai.Point, short)-link" class="member-link">
+<a name="createPointText(com.scriptographer.ai.Point, short)" href="#" onClick="return toggleMember('createPointText(com.scriptographer.ai.Point, short)', false);">
+<tt><b>createPointText</b>(point[, orient])</tt>
+</a>
+</div>
+<div id="createPointText(com.scriptographer.ai.Point, short)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createPointText(com.scriptographer.ai.Point, short)', false);"><tt><b>createPointText</b>(point[, orient])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createPointText(com.scriptographer.ai.Point, short)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>point: </tt><tt><a href="../ai/Point.html">Point</a></tt>	</div>
+	<div><tt>orient: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/PointText.html">PointText</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createRaster(short, int, int)-link" class="member-link">
+<a name="createRaster(short, int, int)" href="#" onClick="return toggleMember('createRaster(short, int, int)', false);">
+<tt><b>createRaster</b>(type[, width, height])</tt>
+</a>
+</div>
+<div id="createRaster(short, int, int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createRaster(short, int, int)', false);"><tt><b>createRaster</b>(type[, width, height])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createRaster(short, int, int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>type: </tt><tt>Number</tt>	</div>
+	<div><tt>width: </tt><tt>Number</tt>	</div>
+	<div><tt>height: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Raster.html">Raster</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="createRectangle(com.scriptographer.ai.Rectangle)-link" class="member-link">
+<a name="createRectangle(com.scriptographer.ai.Rectangle)" href="#" onClick="return toggleMember('createRectangle(com.scriptographer.ai.Rectangle)', false);">
+<tt><b>createRectangle</b>(rect)</tt>
+</a>
+</div>
+<div id="createRectangle(com.scriptographer.ai.Rectangle)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createRectangle(com.scriptographer.ai.Rectangle)', false);"><tt><b>createRectangle</b>(rect)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createRectangle(com.scriptographer.ai.Rectangle)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Creates a rectangular path</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>rect: </tt><tt><a href="../ai/Rectangle.html">Rectangle</a></tt>
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Path.html">Path</a></tt>
+ - the newly created path</div> 
+</div></div>
+</div>
+
+
+<div id="createRegularPolygon(int, com.scriptographer.ai.Point, float)-link" class="member-link">
+<a name="createRegularPolygon(int, com.scriptographer.ai.Point, float)" href="#" onClick="return toggleMember('createRegularPolygon(int, com.scriptographer.ai.Point, float)', false);">
+<tt><b>createRegularPolygon</b>(numSides, center, radius)</tt>
+</a>
+</div>
+<div id="createRegularPolygon(int, com.scriptographer.ai.Point, float)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createRegularPolygon(int, com.scriptographer.ai.Point, float)', false);"><tt><b>createRegularPolygon</b>(numSides, center, radius)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createRegularPolygon(int, com.scriptographer.ai.Point, float)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Creates a regular polygon shaped path</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>numSides: </tt><tt>Number</tt> - the number of sides of the polygon
+	</div>
+	<div><tt>center: </tt><tt><a href="../ai/Point.html">Point</a></tt>
+	</div>
+	<div><tt>radius: </tt><tt>Number</tt>
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Path.html">Path</a></tt>
+ - the newly created path</div> 
+</div></div>
+</div>
+
+
+<div id="createRoundRectangle(com.scriptographer.ai.Rectangle, float, float)-link" class="member-link">
+<a name="createRoundRectangle(com.scriptographer.ai.Rectangle, float, float)" href="#" onClick="return toggleMember('createRoundRectangle(com.scriptographer.ai.Rectangle, float, float)', false);">
+<tt><b>createRoundRectangle</b>(rect, hor, ver)</tt>
+</a>
+</div>
+<div id="createRoundRectangle(com.scriptographer.ai.Rectangle, float, float)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createRoundRectangle(com.scriptographer.ai.Rectangle, float, float)', false);"><tt><b>createRoundRectangle</b>(rect, hor, ver)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createRoundRectangle(com.scriptographer.ai.Rectangle, float, float)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Creates a rectangular path with rounded corners</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>rect: </tt><tt><a href="../ai/Rectangle.html">Rectangle</a></tt>
+	</div>
+	<div><tt>hor: </tt><tt>Number</tt>	</div>
+	<div><tt>ver: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Path.html">Path</a></tt>
+ - the newly created path</div> 
+</div></div>
+</div>
+
+
+<div id="createSpiral(com.scriptographer.ai.Point, com.scriptographer.ai.Point, float, int, boolean)-link" class="member-link">
+<a name="createSpiral(com.scriptographer.ai.Point, com.scriptographer.ai.Point, float, int, boolean)" href="#" onClick="return toggleMember('createSpiral(com.scriptographer.ai.Point, com.scriptographer.ai.Point, float, int, boolean)', false);">
+<tt><b>createSpiral</b>(firstArcCenter, start, decayPercent, numQuarterTurns, clockwiseFromOutside)</tt>
+</a>
+</div>
+<div id="createSpiral(com.scriptographer.ai.Point, com.scriptographer.ai.Point, float, int, boolean)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createSpiral(com.scriptographer.ai.Point, com.scriptographer.ai.Point, float, int, boolean)', false);"><tt><b>createSpiral</b>(firstArcCenter, start, decayPercent, numQuarterTurns, clockwiseFromOutside)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createSpiral(com.scriptographer.ai.Point, com.scriptographer.ai.Point, float, int, boolean)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Creates a spiral shaped path</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>firstArcCenter: </tt><tt><a href="../ai/Point.html">Point</a></tt> - the center point of the first arc
+	</div>
+	<div><tt>start: </tt><tt><a href="../ai/Point.html">Point</a></tt> - the starting point of the spiral
+	</div>
+	<div><tt>decayPercent: </tt><tt>Number</tt> - the percentage by which each succeeding arc will be
+        scaled
+	</div>
+	<div><tt>numQuarterTurns: </tt><tt>Number</tt> - the number of quarter turns (arcs)
+	</div>
+	<div><tt>clockwiseFromOutside: </tt><tt>Boolean</tt> - if this is set to <tt>true</tt> the
+        spiral will spiral in a clockwise direction from the first point.<br />
+        If it's set to <tt>false</tt> it will spiral in a counter
+        clockwise direction
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Path.html">Path</a></tt>
+ - the newly created path</div> 
+</div></div>
+</div>
+
+
+<div id="createStar(int, com.scriptographer.ai.Point, float, float)-link" class="member-link">
+<a name="createStar(int, com.scriptographer.ai.Point, float, float)" href="#" onClick="return toggleMember('createStar(int, com.scriptographer.ai.Point, float, float)', false);">
+<tt><b>createStar</b>(numPoints, center, radius1, radius2)</tt>
+</a>
+</div>
+<div id="createStar(int, com.scriptographer.ai.Point, float, float)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createStar(int, com.scriptographer.ai.Point, float, float)', false);"><tt><b>createStar</b>(numPoints, center, radius1, radius2)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createStar(int, com.scriptographer.ai.Point, float, float)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Created a star shaped path
+ 
+ The largest of <tt>radius1</tt> and <tt>radius2</tt> will be
+ the outer radius of the star. The smallest of radius1 and radius2 will be
+ the inner radius.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>numPoints: </tt><tt>Number</tt> - the number of points of the star
+	</div>
+	<div><tt>center: </tt><tt><a href="../ai/Point.html">Point</a></tt>
+	</div>
+	<div><tt>radius1: </tt><tt>Number</tt>
+	</div>
+	<div><tt>radius2: </tt><tt>Number</tt>
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Path.html">Path</a></tt>
+ - the newly created path</div> 
+</div></div>
+</div>
+
+
+<div id="cut()-link" class="member-link">
+<a name="cut()" href="#" onClick="return toggleMember('cut()', false);">
+<tt><b>cut</b>()</tt>
+</a>
+</div>
+<div id="cut()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('cut()', false);"><tt><b>cut</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('cut()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Cuts the selected items to the clipboard</div></div>
+</div>
+
+
+<div id="deselectAll()-link" class="member-link">
+<a name="deselectAll()" href="#" onClick="return toggleMember('deselectAll()', false);">
+<tt><b>deselectAll</b>()</tt>
+</a>
+</div>
+<div id="deselectAll()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('deselectAll()', false);"><tt><b>deselectAll</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('deselectAll()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Deselects all the selected items in the document.</div></div>
+</div>
+
+
+<div id="getMatchingItems(java.lang.Class, java.util.Map)-link" class="member-link">
+<a name="getMatchingItems(java.lang.Class, java.util.Map)" href="#" onClick="return toggleMember('getMatchingItems(java.lang.Class, java.util.Map)', false);">
+<tt><b>getMatchingItems</b>(type, attributes)</tt>
+</a>
+</div>
+<div id="getMatchingItems(java.lang.Class, java.util.Map)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('getMatchingItems(java.lang.Class, java.util.Map)', false);"><tt><b>getMatchingItems</b>(type, attributes)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('getMatchingItems(java.lang.Class, java.util.Map)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>type: </tt><tt>Class</tt>	</div>
+	<div><tt>attributes: </tt><tt>Object</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/ArtSet.html">ArtSet</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="hasSelectedItems()-link" class="member-link">
+<a name="hasSelectedItems()" href="#" onClick="return toggleMember('hasSelectedItems()', false);">
+<tt><b>hasSelectedItems</b>()</tt>
+</a>
+</div>
+<div id="hasSelectedItems()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('hasSelectedItems()', false);"><tt><b>hasSelectedItems</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('hasSelectedItems()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Checks wether the document contains any selected items.</div>
+
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - <tt>true</tt> if the document contains selected items,
+         false otherwise.</div> 
+</div></div>
+</div>
+
+
+<div id="hitTest(com.scriptographer.ai.Point, int, float)-link" class="member-link">
+<a name="hitTest(com.scriptographer.ai.Point, int, float)" href="#" onClick="return toggleMember('hitTest(com.scriptographer.ai.Point, int, float)', false);">
+<tt><b>hitTest</b>(point[, type[, tolerance]])</tt>
+</a>
+</div>
+<div id="hitTest(com.scriptographer.ai.Point, int, float)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('hitTest(com.scriptographer.ai.Point, int, float)', false);"><tt><b>hitTest</b>(point[, type[, tolerance]])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('hitTest(com.scriptographer.ai.Point, int, float)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>point: </tt><tt><a href="../ai/Point.html">Point</a></tt>
+	</div>
+	<div><tt>type: </tt><tt>Number</tt> - HitTest.TEST_*
+	</div>
+	<div><tt>tolerance: </tt><tt>Number</tt> - specified in view coordinates (i.e pixels at the current
+        zoom factor). The default value is 2. The algorithm is not
+        guaranteed to produce correct results for large values.
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/HitTest.html">HitTest</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="invalidate(float, float, float, float)-link" class="member-link">
+<a name="invalidate(float, float, float, float)" href="#" onClick="return toggleMember('invalidate(float, float, float, float)', false);">
+<tt><b>invalidate</b>(x, y, width, height)</tt>
+</a>
+</div>
+<div id="invalidate(float, float, float, float)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('invalidate(float, float, float, float)', false);"><tt><b>invalidate</b>(x, y, width, height)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('invalidate(float, float, float, float)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Invalidates the rectangle in artwork coordinates. This will cause all
+ views of the document that contain the given rectangle to update at the
+ next opportunity.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>x: </tt><tt>Number</tt>	</div>
+	<div><tt>y: </tt><tt>Number</tt>	</div>
+	<div><tt>width: </tt><tt>Number</tt>	</div>
+	<div><tt>height: </tt><tt>Number</tt>	</div>
+</div></div>
+</div>
+
+
+<div id="invalidate(com.scriptographer.ai.Rectangle)-link" class="member-link">
+<a name="invalidate(com.scriptographer.ai.Rectangle)" href="#" onClick="return toggleMember('invalidate(com.scriptographer.ai.Rectangle)', false);">
+<tt><b>invalidate</b>(rect)</tt>
+</a>
+</div>
+<div id="invalidate(com.scriptographer.ai.Rectangle)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('invalidate(com.scriptographer.ai.Rectangle)', false);"><tt><b>invalidate</b>(rect)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('invalidate(com.scriptographer.ai.Rectangle)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>rect: </tt><tt><a href="../ai/Rectangle.html">Rectangle</a></tt>	</div>
+</div></div>
+</div>
+
+
+<div id="paste()-link" class="member-link">
+<a name="paste()" href="#" onClick="return toggleMember('paste()', false);">
+<tt><b>paste</b>()</tt>
+</a>
+</div>
+<div id="paste()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('paste()', false);"><tt><b>paste</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('paste()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Pastes the selected items to the clipboard</div></div>
+</div>
+
+
+<div id="place(java.io.File, boolean)-link" class="member-link">
+<a name="place(java.io.File, boolean)" href="#" onClick="return toggleMember('place(java.io.File, boolean)', false);">
+<tt><b>place</b>(file[, linked])</tt>
+</a>
+</div>
+<div id="place(java.io.File, boolean)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('place(java.io.File, boolean)', false);"><tt><b>place</b>(file[, linked])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('place(java.io.File, boolean)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Places a file in the document</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>file: </tt><tt>File</tt> - the file to place
+	</div>
+	<div><tt>linked: </tt><tt>Boolean</tt> - when set to <tt>true</tt>, the placed object is a
+        link to the file, otherwise it is embedded within the document
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/Art.html">Art</a></i></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="print(int)-link" class="member-link">
+<a name="print(int)" href="#" onClick="return toggleMember('print(int)', false);">
+<tt><b>print</b>(dialogStatus)</tt>
+</a>
+</div>
+<div id="print(int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('print(int)', false);"><tt><b>print</b>(dialogStatus)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('print(int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Prints the document</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>dialogStatus: </tt><tt>Number</tt> - <tt>Document.DIALOG_*</tt>
+	</div>
+</div></div>
+</div>
+
+
+<div id="redraw()-link" class="member-link">
+<a name="redraw()" href="#" onClick="return toggleMember('redraw()', false);">
+<tt><b>redraw</b>()</tt>
+</a>
+</div>
+<div id="redraw()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('redraw()', false);"><tt><b>redraw</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('redraw()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Forces the document to be redrawn</div></div>
+</div>
+
+
+<div id="reflowText()-link" class="member-link">
+<a name="reflowText()" href="#" onClick="return toggleMember('reflowText()', false);">
+<tt><b>reflowText</b>()</tt>
+</a>
+</div>
+<div id="reflowText()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('reflowText()', false);"><tt><b>reflowText</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('reflowText()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Text reflow is suspended during script execution. when reflowText() is
+ called, the reflow of text is forced.</div></div>
+</div>
+
+
+<div id="save()-link" class="member-link">
+<a name="save()" href="#" onClick="return toggleMember('save()', false);">
+<tt><b>save</b>()</tt>
+</a>
+</div>
+<div id="save()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('save()', false);"><tt><b>save</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('save()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Saves the document</div></div>
+</div>
+
+
+<div id="setSize(float, float)-link" class="member-link">
+<a name="setSize(float, float)" href="#" onClick="return toggleMember('setSize(float, float)', false);">
+<tt><b>setSize</b>(width, height)</tt>
+</a>
+</div>
+<div id="setSize(float, float)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('setSize(float, float)', false);"><tt><b>setSize</b>(width, height)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('setSize(float, float)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">setSize only works while reading a document!</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>width: </tt><tt>Number</tt>
+	</div>
+	<div><tt>height: </tt><tt>Number</tt>
+	</div>
+</div></div>
+</div>
+
+
+<div id="write(java.io.File, java.lang.String, boolean)-link" class="member-link">
+<a name="write(java.io.File, java.lang.String, boolean)" href="#" onClick="return toggleMember('write(java.io.File, java.lang.String, boolean)', false);">
+<tt><b>write</b>(file[, format[, ask]])</tt>
+</a>
+</div>
+<div id="write(java.io.File, java.lang.String, boolean)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('write(java.io.File, java.lang.String, boolean)', false);"><tt><b>write</b>(file[, format[, ask]])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('write(java.io.File, java.lang.String, boolean)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>file: </tt><tt>File</tt>	</div>
+	<div><tt>format: </tt><tt>String</tt>	</div>
+	<div><tt>ask: </tt><tt>Boolean</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+</div>
+
+
+
+
+
+<p class="footer">Copyright &#169; 2001-2007 J&uuml;rg Lehni, <a href=http://www.scratchdisk.com target=_blank>Scratchdisk.com</a>. All Rights Reserved.</p>
+</body>
+</html>

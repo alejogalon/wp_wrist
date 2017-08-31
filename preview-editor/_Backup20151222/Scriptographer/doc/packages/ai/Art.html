@@ -1,0 +1,2305 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Art</title>
+<base target="classFrame">
+<link rel="stylesheet" href="../../resources/style.css" type="text/css">
+<script src="../../resources/scripts.js" type="text/javascript"></script>
+</head>
+<body class="documentation">
+<h1>Art</h1>
+
+
+
+<p> <tt><i><a href="../ai/Art.html">Art</a></i></tt></p>
+
+
+
+
+
+<h2>Properties</h2><div class="documentation-paragraph">
+<div id="alphaIsShape-link" class="member-link">
+<a name="alphaIsShape" href="#" onClick="return toggleMember('alphaIsShape', false);">
+<tt><b>alphaIsShape</b></tt>
+</a>
+</div>
+<div id="alphaIsShape-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('alphaIsShape', false);"><tt><b>alphaIsShape</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('alphaIsShape', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="blendMode-link" class="member-link">
+<a name="blendMode" href="#" onClick="return toggleMember('blendMode', false);">
+<tt><b>blendMode</b></tt>
+</a>
+</div>
+<div id="blendMode-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('blendMode', false);"><tt><b>blendMode</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('blendMode', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">The art item's blend mode as specified by the <tt>Art.BLEND_*</tt> staticproperties.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="bounds-link" class="member-link">
+<a name="bounds" href="#" onClick="return toggleMember('bounds', false);">
+<tt><b>bounds</b></tt>
+</a>
+</div>
+<div id="bounds-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('bounds', false);"><tt><b>bounds</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('bounds', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.The bounds of the art item including stroke width.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Rectangle.html">Rectangle</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="centerVisible-link" class="member-link">
+<a name="centerVisible" href="#" onClick="return toggleMember('centerVisible', false);">
+<tt><b>centerVisible</b></tt>
+</a>
+</div>
+<div id="centerVisible-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('centerVisible', false);"><tt><b>centerVisible</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('centerVisible', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="children-link" class="member-link">
+<a name="children" href="#" onClick="return toggleMember('children', false);">
+<tt><b>children</b></tt>
+</a>
+</div>
+<div id="children-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('children', false);"><tt><b>children</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('children', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.An array of art items contained within this art item</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Array of <i><a href="../ai/Art.html">Art</a></i></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="clipMask-link" class="member-link">
+<a name="clipMask" href="#" onClick="return toggleMember('clipMask', false);">
+<tt><b>clipMask</b></tt>
+</a>
+</div>
+<div id="clipMask-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('clipMask', false);"><tt><b>clipMask</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('clipMask', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">A boolean value that specifies whether the art item defines a clip mask.This can only be set on paths, compound paths, and text frame objects,and only if the item is already contained within a clip group.Sample code:<br /><pre>var group = new Group();group.appendChild(path);group.clipped = true;path.clipMask = true;</pre></div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="controlBounds-link" class="member-link">
+<a name="controlBounds" href="#" onClick="return toggleMember('controlBounds', false);">
+<tt><b>controlBounds</b></tt>
+</a>
+</div>
+<div id="controlBounds-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('controlBounds', false);"><tt><b>controlBounds</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('controlBounds', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.The bounds of the art item including stroke width and controls.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Rectangle.html">Rectangle</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="dictionary-link" class="member-link">
+<a name="dictionary" href="#" onClick="return toggleMember('dictionary', false);">
+<tt><b>dictionary</b></tt>
+</a>
+</div>
+<div id="dictionary-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('dictionary', false);"><tt><b>dictionary</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('dictionary', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Object</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="document-link" class="member-link">
+<a name="document" href="#" onClick="return toggleMember('document', false);">
+<tt><b>document</b></tt>
+</a>
+</div>
+<div id="document-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('document', false);"><tt><b>document</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('document', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the document that the art item belongs to.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Document.html">Document</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="editable-link" class="member-link">
+<a name="editable" href="#" onClick="return toggleMember('editable', false);">
+<tt><b>editable</b></tt>
+</a>
+</div>
+<div id="editable-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('editable', false);"><tt><b>editable</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('editable', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="firstChild-link" class="member-link">
+<a name="firstChild" href="#" onClick="return toggleMember('firstChild', false);">
+<tt><b>firstChild</b></tt>
+</a>
+</div>
+<div id="firstChild-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('firstChild', false);"><tt><b>firstChild</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('firstChild', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the first art item contained within this art item.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/Art.html">Art</a></i></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="fullySelected-link" class="member-link">
+<a name="fullySelected" href="#" onClick="return toggleMember('fullySelected', false);">
+<tt><b>fullySelected</b></tt>
+</a>
+</div>
+<div id="fullySelected-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('fullySelected', false);"><tt><b>fullySelected</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('fullySelected', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">A boolean value that specifies whether the art item is fullyselected. For paths this means that all segments are selected,for container objects all children are selected.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="geometricBounds-link" class="member-link">
+<a name="geometricBounds" href="#" onClick="return toggleMember('geometricBounds', false);">
+<tt><b>geometricBounds</b></tt>
+</a>
+</div>
+<div id="geometricBounds-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('geometricBounds', false);"><tt><b>geometricBounds</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('geometricBounds', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.The bounds of the art item excluding stroke width.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Rectangle.html">Rectangle</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="hidden-link" class="member-link">
+<a name="hidden" href="#" onClick="return toggleMember('hidden', false);">
+<tt><b>hidden</b></tt>
+</a>
+</div>
+<div id="hidden-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('hidden', false);"><tt><b>hidden</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('hidden', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">A boolean value that specifies whether the art item is hidden.Sample code:<br /><pre>var path = new Path();print(path.hidden) // returns falsepath.hidden = true; // hides the pathprint(path.hidden) // returns true</pre></div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="isolated-link" class="member-link">
+<a name="isolated" href="#" onClick="return toggleMember('isolated', false);">
+<tt><b>isolated</b></tt>
+</a>
+</div>
+<div id="isolated-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('isolated', false);"><tt><b>isolated</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('isolated', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="knockout-link" class="member-link">
+<a name="knockout" href="#" onClick="return toggleMember('knockout', false);">
+<tt><b>knockout</b></tt>
+</a>
+</div>
+<div id="knockout-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('knockout', false);"><tt><b>knockout</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('knockout', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="knockoutInherited-link" class="member-link">
+<a name="knockoutInherited" href="#" onClick="return toggleMember('knockoutInherited', false);">
+<tt><b>knockoutInherited</b></tt>
+</a>
+</div>
+<div id="knockoutInherited-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('knockoutInherited', false);"><tt><b>knockoutInherited</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('knockoutInherited', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="lastChild-link" class="member-link">
+<a name="lastChild" href="#" onClick="return toggleMember('lastChild', false);">
+<tt><b>lastChild</b></tt>
+</a>
+</div>
+<div id="lastChild-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('lastChild', false);"><tt><b>lastChild</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('lastChild', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the last art item contained within this art item.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/Art.html">Art</a></i></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="locked-link" class="member-link">
+<a name="locked" href="#" onClick="return toggleMember('locked', false);">
+<tt><b>locked</b></tt>
+</a>
+</div>
+<div id="locked-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('locked', false);"><tt><b>locked</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('locked', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">A boolean value that specifies whether the art item is locked.Sample code:<pre>var path = new Path();print(path.locked) // returns falsepath.locked = true; // locks the pathprint(path.locked) // returns true</pre></div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="name-link" class="member-link">
+<a name="name" href="#" onClick="return toggleMember('name', false);">
+<tt><b>name</b></tt>
+</a>
+</div>
+<div id="name-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('name', false);"><tt><b>name</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('name', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">The name of the art item as it appears in the layers palette.Sample code:<br /><pre>var layer = new Layer(); // a layer is an art itemprint(layer.name); // returns '&lt;Layer 2&gt;'layer.name = &quot;A nice name&quot;;print(layer.name); // returns 'A nice name'</pre></div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>String</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="nextSibling-link" class="member-link">
+<a name="nextSibling" href="#" onClick="return toggleMember('nextSibling', false);">
+<tt><b>nextSibling</b></tt>
+</a>
+</div>
+<div id="nextSibling-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('nextSibling', false);"><tt><b>nextSibling</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('nextSibling', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the next art item on the same level as this art item.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/Art.html">Art</a></i></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="opacity-link" class="member-link">
+<a name="opacity" href="#" onClick="return toggleMember('opacity', false);">
+<tt><b>opacity</b></tt>
+</a>
+</div>
+<div id="opacity-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('opacity', false);"><tt><b>opacity</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('opacity', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">A value between 0 and 1 that specifies the opacity of the art item.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="parent-link" class="member-link">
+<a name="parent" href="#" onClick="return toggleMember('parent', false);">
+<tt><b>parent</b></tt>
+</a>
+</div>
+<div id="parent-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('parent', false);"><tt><b>parent</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('parent', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the art item that this art item is contained within.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/Art.html">Art</a></i></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="previousSibling-link" class="member-link">
+<a name="previousSibling" href="#" onClick="return toggleMember('previousSibling', false);">
+<tt><b>previousSibling</b></tt>
+</a>
+</div>
+<div id="previousSibling-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('previousSibling', false);"><tt><b>previousSibling</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('previousSibling', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the previous art item on the same level as this art item.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/Art.html">Art</a></i></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="selected-link" class="member-link">
+<a name="selected" href="#" onClick="return toggleMember('selected', false);">
+<tt><b>selected</b></tt>
+</a>
+</div>
+<div id="selected-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('selected', false);"><tt><b>selected</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('selected', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">A boolean value that specifies whether an art item is selected.Returns true if the art item is selected or partially selected (groups withsome selected objects/partially selected paths), false otherwise.Sample code:<pre>print(activeDocument.selectedItems.length) // returns 0var path = new Path(); // new art items are always created in the active layerpath.selected = true; // select the pathprint(activeDocument.selectedItems.length) // returns 1</pre></div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="style-link" class="member-link">
+<a name="style" href="#" onClick="return toggleMember('style', false);">
+<tt><b>style</b></tt>
+</a>
+</div>
+<div id="style-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('style', false);"><tt><b>style</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('style', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/PathStyle.html">PathStyle</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="valid-link" class="member-link">
+<a name="valid" href="#" onClick="return toggleMember('valid', false);">
+<tt><b>valid</b></tt>
+</a>
+</div>
+<div id="valid-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('valid', false);"><tt><b>valid</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('valid', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_EXPANDED-link" class="member-link">
+<a name="ATTR_EXPANDED" href="#" onClick="return toggleMember('ATTR_EXPANDED', false);">
+<tt><b>ATTR_EXPANDED</b></tt>
+</a>
+</div>
+<div id="ATTR_EXPANDED-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_EXPANDED', false);"><tt><b>ATTR_EXPANDED</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_EXPANDED', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_FULLY_SELECTED-link" class="member-link">
+<a name="ATTR_FULLY_SELECTED" href="#" onClick="return toggleMember('ATTR_FULLY_SELECTED', false);">
+<tt><b>ATTR_FULLY_SELECTED</b></tt>
+</a>
+</div>
+<div id="ATTR_FULLY_SELECTED-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_FULLY_SELECTED', false);"><tt><b>ATTR_FULLY_SELECTED</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_FULLY_SELECTED', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_HAS_ACTIVE_STYLE-link" class="member-link">
+<a name="ATTR_HAS_ACTIVE_STYLE" href="#" onClick="return toggleMember('ATTR_HAS_ACTIVE_STYLE', false);">
+<tt><b>ATTR_HAS_ACTIVE_STYLE</b></tt>
+</a>
+</div>
+<div id="ATTR_HAS_ACTIVE_STYLE-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_HAS_ACTIVE_STYLE', false);"><tt><b>ATTR_HAS_ACTIVE_STYLE</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_HAS_ACTIVE_STYLE', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_HAS_SIMPLE_STYLE-link" class="member-link">
+<a name="ATTR_HAS_SIMPLE_STYLE" href="#" onClick="return toggleMember('ATTR_HAS_SIMPLE_STYLE', false);">
+<tt><b>ATTR_HAS_SIMPLE_STYLE</b></tt>
+</a>
+</div>
+<div id="ATTR_HAS_SIMPLE_STYLE-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_HAS_SIMPLE_STYLE', false);"><tt><b>ATTR_HAS_SIMPLE_STYLE</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_HAS_SIMPLE_STYLE', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_HIDDEN-link" class="member-link">
+<a name="ATTR_HIDDEN" href="#" onClick="return toggleMember('ATTR_HIDDEN', false);">
+<tt><b>ATTR_HIDDEN</b></tt>
+</a>
+</div>
+<div id="ATTR_HIDDEN-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_HIDDEN', false);"><tt><b>ATTR_HIDDEN</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_HIDDEN', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_IS_CLIPMASK-link" class="member-link">
+<a name="ATTR_IS_CLIPMASK" href="#" onClick="return toggleMember('ATTR_IS_CLIPMASK', false);">
+<tt><b>ATTR_IS_CLIPMASK</b></tt>
+</a>
+</div>
+<div id="ATTR_IS_CLIPMASK-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_IS_CLIPMASK', false);"><tt><b>ATTR_IS_CLIPMASK</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_IS_CLIPMASK', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_IS_TEXTWRAP-link" class="member-link">
+<a name="ATTR_IS_TEXTWRAP" href="#" onClick="return toggleMember('ATTR_IS_TEXTWRAP', false);">
+<tt><b>ATTR_IS_TEXTWRAP</b></tt>
+</a>
+</div>
+<div id="ATTR_IS_TEXTWRAP-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_IS_TEXTWRAP', false);"><tt><b>ATTR_IS_TEXTWRAP</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_IS_TEXTWRAP', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_LOCKED-link" class="member-link">
+<a name="ATTR_LOCKED" href="#" onClick="return toggleMember('ATTR_LOCKED', false);">
+<tt><b>ATTR_LOCKED</b></tt>
+</a>
+</div>
+<div id="ATTR_LOCKED-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_LOCKED', false);"><tt><b>ATTR_LOCKED</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_LOCKED', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_PART_OF_COMPOUND-link" class="member-link">
+<a name="ATTR_PART_OF_COMPOUND" href="#" onClick="return toggleMember('ATTR_PART_OF_COMPOUND', false);">
+<tt><b>ATTR_PART_OF_COMPOUND</b></tt>
+</a>
+</div>
+<div id="ATTR_PART_OF_COMPOUND-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_PART_OF_COMPOUND', false);"><tt><b>ATTR_PART_OF_COMPOUND</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_PART_OF_COMPOUND', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_SELECTED-link" class="member-link">
+<a name="ATTR_SELECTED" href="#" onClick="return toggleMember('ATTR_SELECTED', false);">
+<tt><b>ATTR_SELECTED</b></tt>
+</a>
+</div>
+<div id="ATTR_SELECTED-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_SELECTED', false);"><tt><b>ATTR_SELECTED</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_SELECTED', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_SELECTED_LAYERS-link" class="member-link">
+<a name="ATTR_SELECTED_LAYERS" href="#" onClick="return toggleMember('ATTR_SELECTED_LAYERS', false);">
+<tt><b>ATTR_SELECTED_LAYERS</b></tt>
+</a>
+</div>
+<div id="ATTR_SELECTED_LAYERS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_SELECTED_LAYERS', false);"><tt><b>ATTR_SELECTED_LAYERS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_SELECTED_LAYERS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_SELECTED_TOPLEVEL_GROUPS-link" class="member-link">
+<a name="ATTR_SELECTED_TOPLEVEL_GROUPS" href="#" onClick="return toggleMember('ATTR_SELECTED_TOPLEVEL_GROUPS', false);">
+<tt><b>ATTR_SELECTED_TOPLEVEL_GROUPS</b></tt>
+</a>
+</div>
+<div id="ATTR_SELECTED_TOPLEVEL_GROUPS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_SELECTED_TOPLEVEL_GROUPS', false);"><tt><b>ATTR_SELECTED_TOPLEVEL_GROUPS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_SELECTED_TOPLEVEL_GROUPS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_SELECTED_TOPLEVEL_WITH_PAINT-link" class="member-link">
+<a name="ATTR_SELECTED_TOPLEVEL_WITH_PAINT" href="#" onClick="return toggleMember('ATTR_SELECTED_TOPLEVEL_WITH_PAINT', false);">
+<tt><b>ATTR_SELECTED_TOPLEVEL_WITH_PAINT</b></tt>
+</a>
+</div>
+<div id="ATTR_SELECTED_TOPLEVEL_WITH_PAINT-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_SELECTED_TOPLEVEL_WITH_PAINT', false);"><tt><b>ATTR_SELECTED_TOPLEVEL_WITH_PAINT</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_SELECTED_TOPLEVEL_WITH_PAINT', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_STYLE_IS_DIRTY-link" class="member-link">
+<a name="ATTR_STYLE_IS_DIRTY" href="#" onClick="return toggleMember('ATTR_STYLE_IS_DIRTY', false);">
+<tt><b>ATTR_STYLE_IS_DIRTY</b></tt>
+</a>
+</div>
+<div id="ATTR_STYLE_IS_DIRTY-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_STYLE_IS_DIRTY', false);"><tt><b>ATTR_STYLE_IS_DIRTY</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_STYLE_IS_DIRTY', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ATTR_TARGETED-link" class="member-link">
+<a name="ATTR_TARGETED" href="#" onClick="return toggleMember('ATTR_TARGETED', false);">
+<tt><b>ATTR_TARGETED</b></tt>
+</a>
+</div>
+<div id="ATTR_TARGETED-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ATTR_TARGETED', false);"><tt><b>ATTR_TARGETED</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ATTR_TARGETED', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_COLOR-link" class="member-link">
+<a name="BLEND_COLOR" href="#" onClick="return toggleMember('BLEND_COLOR', false);">
+<tt><b>BLEND_COLOR</b></tt>
+</a>
+</div>
+<div id="BLEND_COLOR-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_COLOR', false);"><tt><b>BLEND_COLOR</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_COLOR', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_COLORBURN-link" class="member-link">
+<a name="BLEND_COLORBURN" href="#" onClick="return toggleMember('BLEND_COLORBURN', false);">
+<tt><b>BLEND_COLORBURN</b></tt>
+</a>
+</div>
+<div id="BLEND_COLORBURN-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_COLORBURN', false);"><tt><b>BLEND_COLORBURN</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_COLORBURN', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_COLORDODGE-link" class="member-link">
+<a name="BLEND_COLORDODGE" href="#" onClick="return toggleMember('BLEND_COLORDODGE', false);">
+<tt><b>BLEND_COLORDODGE</b></tt>
+</a>
+</div>
+<div id="BLEND_COLORDODGE-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_COLORDODGE', false);"><tt><b>BLEND_COLORDODGE</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_COLORDODGE', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_DARKEN-link" class="member-link">
+<a name="BLEND_DARKEN" href="#" onClick="return toggleMember('BLEND_DARKEN', false);">
+<tt><b>BLEND_DARKEN</b></tt>
+</a>
+</div>
+<div id="BLEND_DARKEN-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_DARKEN', false);"><tt><b>BLEND_DARKEN</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_DARKEN', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_DIFFERENCE-link" class="member-link">
+<a name="BLEND_DIFFERENCE" href="#" onClick="return toggleMember('BLEND_DIFFERENCE', false);">
+<tt><b>BLEND_DIFFERENCE</b></tt>
+</a>
+</div>
+<div id="BLEND_DIFFERENCE-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_DIFFERENCE', false);"><tt><b>BLEND_DIFFERENCE</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_DIFFERENCE', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_EXCLUSION-link" class="member-link">
+<a name="BLEND_EXCLUSION" href="#" onClick="return toggleMember('BLEND_EXCLUSION', false);">
+<tt><b>BLEND_EXCLUSION</b></tt>
+</a>
+</div>
+<div id="BLEND_EXCLUSION-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_EXCLUSION', false);"><tt><b>BLEND_EXCLUSION</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_EXCLUSION', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_HARDLIGHT-link" class="member-link">
+<a name="BLEND_HARDLIGHT" href="#" onClick="return toggleMember('BLEND_HARDLIGHT', false);">
+<tt><b>BLEND_HARDLIGHT</b></tt>
+</a>
+</div>
+<div id="BLEND_HARDLIGHT-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_HARDLIGHT', false);"><tt><b>BLEND_HARDLIGHT</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_HARDLIGHT', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_HUE-link" class="member-link">
+<a name="BLEND_HUE" href="#" onClick="return toggleMember('BLEND_HUE', false);">
+<tt><b>BLEND_HUE</b></tt>
+</a>
+</div>
+<div id="BLEND_HUE-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_HUE', false);"><tt><b>BLEND_HUE</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_HUE', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_LIGHTEN-link" class="member-link">
+<a name="BLEND_LIGHTEN" href="#" onClick="return toggleMember('BLEND_LIGHTEN', false);">
+<tt><b>BLEND_LIGHTEN</b></tt>
+</a>
+</div>
+<div id="BLEND_LIGHTEN-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_LIGHTEN', false);"><tt><b>BLEND_LIGHTEN</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_LIGHTEN', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_LUMINOSITY-link" class="member-link">
+<a name="BLEND_LUMINOSITY" href="#" onClick="return toggleMember('BLEND_LUMINOSITY', false);">
+<tt><b>BLEND_LUMINOSITY</b></tt>
+</a>
+</div>
+<div id="BLEND_LUMINOSITY-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_LUMINOSITY', false);"><tt><b>BLEND_LUMINOSITY</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_LUMINOSITY', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_MULTIPLY-link" class="member-link">
+<a name="BLEND_MULTIPLY" href="#" onClick="return toggleMember('BLEND_MULTIPLY', false);">
+<tt><b>BLEND_MULTIPLY</b></tt>
+</a>
+</div>
+<div id="BLEND_MULTIPLY-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_MULTIPLY', false);"><tt><b>BLEND_MULTIPLY</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_MULTIPLY', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_NORMAL-link" class="member-link">
+<a name="BLEND_NORMAL" href="#" onClick="return toggleMember('BLEND_NORMAL', false);">
+<tt><b>BLEND_NORMAL</b></tt>
+</a>
+</div>
+<div id="BLEND_NORMAL-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_NORMAL', false);"><tt><b>BLEND_NORMAL</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_NORMAL', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_NUMS-link" class="member-link">
+<a name="BLEND_NUMS" href="#" onClick="return toggleMember('BLEND_NUMS', false);">
+<tt><b>BLEND_NUMS</b></tt>
+</a>
+</div>
+<div id="BLEND_NUMS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_NUMS', false);"><tt><b>BLEND_NUMS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_NUMS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_OVERLAY-link" class="member-link">
+<a name="BLEND_OVERLAY" href="#" onClick="return toggleMember('BLEND_OVERLAY', false);">
+<tt><b>BLEND_OVERLAY</b></tt>
+</a>
+</div>
+<div id="BLEND_OVERLAY-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_OVERLAY', false);"><tt><b>BLEND_OVERLAY</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_OVERLAY', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_SATURATION-link" class="member-link">
+<a name="BLEND_SATURATION" href="#" onClick="return toggleMember('BLEND_SATURATION', false);">
+<tt><b>BLEND_SATURATION</b></tt>
+</a>
+</div>
+<div id="BLEND_SATURATION-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_SATURATION', false);"><tt><b>BLEND_SATURATION</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_SATURATION', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_SCREEN-link" class="member-link">
+<a name="BLEND_SCREEN" href="#" onClick="return toggleMember('BLEND_SCREEN', false);">
+<tt><b>BLEND_SCREEN</b></tt>
+</a>
+</div>
+<div id="BLEND_SCREEN-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_SCREEN', false);"><tt><b>BLEND_SCREEN</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_SCREEN', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="BLEND_SOFTLIGHT-link" class="member-link">
+<a name="BLEND_SOFTLIGHT" href="#" onClick="return toggleMember('BLEND_SOFTLIGHT', false);">
+<tt><b>BLEND_SOFTLIGHT</b></tt>
+</a>
+</div>
+<div id="BLEND_SOFTLIGHT-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('BLEND_SOFTLIGHT', false);"><tt><b>BLEND_SOFTLIGHT</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('BLEND_SOFTLIGHT', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="EXPAND_GRADIENTTOMESH-link" class="member-link">
+<a name="EXPAND_GRADIENTTOMESH" href="#" onClick="return toggleMember('EXPAND_GRADIENTTOMESH', false);">
+<tt><b>EXPAND_GRADIENTTOMESH</b></tt>
+</a>
+</div>
+<div id="EXPAND_GRADIENTTOMESH-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('EXPAND_GRADIENTTOMESH', false);"><tt><b>EXPAND_GRADIENTTOMESH</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('EXPAND_GRADIENTTOMESH', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="EXPAND_GRADIENTTOPATHS-link" class="member-link">
+<a name="EXPAND_GRADIENTTOPATHS" href="#" onClick="return toggleMember('EXPAND_GRADIENTTOPATHS', false);">
+<tt><b>EXPAND_GRADIENTTOPATHS</b></tt>
+</a>
+</div>
+<div id="EXPAND_GRADIENTTOPATHS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('EXPAND_GRADIENTTOPATHS', false);"><tt><b>EXPAND_GRADIENTTOPATHS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('EXPAND_GRADIENTTOPATHS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="EXPAND_LOCKEDOBJECTS-link" class="member-link">
+<a name="EXPAND_LOCKEDOBJECTS" href="#" onClick="return toggleMember('EXPAND_LOCKEDOBJECTS', false);">
+<tt><b>EXPAND_LOCKEDOBJECTS</b></tt>
+</a>
+</div>
+<div id="EXPAND_LOCKEDOBJECTS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('EXPAND_LOCKEDOBJECTS', false);"><tt><b>EXPAND_LOCKEDOBJECTS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('EXPAND_LOCKEDOBJECTS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="EXPAND_ONEATATIME-link" class="member-link">
+<a name="EXPAND_ONEATATIME" href="#" onClick="return toggleMember('EXPAND_ONEATATIME', false);">
+<tt><b>EXPAND_ONEATATIME</b></tt>
+</a>
+</div>
+<div id="EXPAND_ONEATATIME-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('EXPAND_ONEATATIME', false);"><tt><b>EXPAND_ONEATATIME</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('EXPAND_ONEATATIME', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="EXPAND_PATTERN-link" class="member-link">
+<a name="EXPAND_PATTERN" href="#" onClick="return toggleMember('EXPAND_PATTERN', false);">
+<tt><b>EXPAND_PATTERN</b></tt>
+</a>
+</div>
+<div id="EXPAND_PATTERN-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('EXPAND_PATTERN', false);"><tt><b>EXPAND_PATTERN</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('EXPAND_PATTERN', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="EXPAND_PLUGINART-link" class="member-link">
+<a name="EXPAND_PLUGINART" href="#" onClick="return toggleMember('EXPAND_PLUGINART', false);">
+<tt><b>EXPAND_PLUGINART</b></tt>
+</a>
+</div>
+<div id="EXPAND_PLUGINART-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('EXPAND_PLUGINART', false);"><tt><b>EXPAND_PLUGINART</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('EXPAND_PLUGINART', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="EXPAND_SHOWPROGRESS-link" class="member-link">
+<a name="EXPAND_SHOWPROGRESS" href="#" onClick="return toggleMember('EXPAND_SHOWPROGRESS', false);">
+<tt><b>EXPAND_SHOWPROGRESS</b></tt>
+</a>
+</div>
+<div id="EXPAND_SHOWPROGRESS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('EXPAND_SHOWPROGRESS', false);"><tt><b>EXPAND_SHOWPROGRESS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('EXPAND_SHOWPROGRESS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="EXPAND_STROKE-link" class="member-link">
+<a name="EXPAND_STROKE" href="#" onClick="return toggleMember('EXPAND_STROKE', false);">
+<tt><b>EXPAND_STROKE</b></tt>
+</a>
+</div>
+<div id="EXPAND_STROKE-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('EXPAND_STROKE', false);"><tt><b>EXPAND_STROKE</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('EXPAND_STROKE', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="EXPAND_SYMBOLINSTANCES-link" class="member-link">
+<a name="EXPAND_SYMBOLINSTANCES" href="#" onClick="return toggleMember('EXPAND_SYMBOLINSTANCES', false);">
+<tt><b>EXPAND_SYMBOLINSTANCES</b></tt>
+</a>
+</div>
+<div id="EXPAND_SYMBOLINSTANCES-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('EXPAND_SYMBOLINSTANCES', false);"><tt><b>EXPAND_SYMBOLINSTANCES</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('EXPAND_SYMBOLINSTANCES', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="EXPAND_TEXT-link" class="member-link">
+<a name="EXPAND_TEXT" href="#" onClick="return toggleMember('EXPAND_TEXT', false);">
+<tt><b>EXPAND_TEXT</b></tt>
+</a>
+</div>
+<div id="EXPAND_TEXT-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('EXPAND_TEXT', false);"><tt><b>EXPAND_TEXT</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('EXPAND_TEXT', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="KNOCKOUT_INHERIT-link" class="member-link">
+<a name="KNOCKOUT_INHERIT" href="#" onClick="return toggleMember('KNOCKOUT_INHERIT', false);">
+<tt><b>KNOCKOUT_INHERIT</b></tt>
+</a>
+</div>
+<div id="KNOCKOUT_INHERIT-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('KNOCKOUT_INHERIT', false);"><tt><b>KNOCKOUT_INHERIT</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('KNOCKOUT_INHERIT', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="KNOCKOUT_OFF-link" class="member-link">
+<a name="KNOCKOUT_OFF" href="#" onClick="return toggleMember('KNOCKOUT_OFF', false);">
+<tt><b>KNOCKOUT_OFF</b></tt>
+</a>
+</div>
+<div id="KNOCKOUT_OFF-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('KNOCKOUT_OFF', false);"><tt><b>KNOCKOUT_OFF</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('KNOCKOUT_OFF', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="KNOCKOUT_ON-link" class="member-link">
+<a name="KNOCKOUT_ON" href="#" onClick="return toggleMember('KNOCKOUT_ON', false);">
+<tt><b>KNOCKOUT_ON</b></tt>
+</a>
+</div>
+<div id="KNOCKOUT_ON-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('KNOCKOUT_ON', false);"><tt><b>KNOCKOUT_ON</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('KNOCKOUT_ON', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="KNOCKOUT_UNKNOWN-link" class="member-link">
+<a name="KNOCKOUT_UNKNOWN" href="#" onClick="return toggleMember('KNOCKOUT_UNKNOWN', false);">
+<tt><b>KNOCKOUT_UNKNOWN</b></tt>
+</a>
+</div>
+<div id="KNOCKOUT_UNKNOWN-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('KNOCKOUT_UNKNOWN', false);"><tt><b>KNOCKOUT_UNKNOWN</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('KNOCKOUT_UNKNOWN', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ORDER_ABOVE-link" class="member-link">
+<a name="ORDER_ABOVE" href="#" onClick="return toggleMember('ORDER_ABOVE', false);">
+<tt><b>ORDER_ABOVE</b></tt>
+</a>
+</div>
+<div id="ORDER_ABOVE-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ORDER_ABOVE', false);"><tt><b>ORDER_ABOVE</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ORDER_ABOVE', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ORDER_ANCHESTOR-link" class="member-link">
+<a name="ORDER_ANCHESTOR" href="#" onClick="return toggleMember('ORDER_ANCHESTOR', false);">
+<tt><b>ORDER_ANCHESTOR</b></tt>
+</a>
+</div>
+<div id="ORDER_ANCHESTOR-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ORDER_ANCHESTOR', false);"><tt><b>ORDER_ANCHESTOR</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ORDER_ANCHESTOR', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ORDER_BELOW-link" class="member-link">
+<a name="ORDER_BELOW" href="#" onClick="return toggleMember('ORDER_BELOW', false);">
+<tt><b>ORDER_BELOW</b></tt>
+</a>
+</div>
+<div id="ORDER_BELOW-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ORDER_BELOW', false);"><tt><b>ORDER_BELOW</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ORDER_BELOW', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ORDER_INSIDE-link" class="member-link">
+<a name="ORDER_INSIDE" href="#" onClick="return toggleMember('ORDER_INSIDE', false);">
+<tt><b>ORDER_INSIDE</b></tt>
+</a>
+</div>
+<div id="ORDER_INSIDE-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ORDER_INSIDE', false);"><tt><b>ORDER_INSIDE</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ORDER_INSIDE', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ORDER_UNKNOWN-link" class="member-link">
+<a name="ORDER_UNKNOWN" href="#" onClick="return toggleMember('ORDER_UNKNOWN', false);">
+<tt><b>ORDER_UNKNOWN</b></tt>
+</a>
+</div>
+<div id="ORDER_UNKNOWN-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ORDER_UNKNOWN', false);"><tt><b>ORDER_UNKNOWN</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ORDER_UNKNOWN', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="TRANSFORM_CHILDREN-link" class="member-link">
+<a name="TRANSFORM_CHILDREN" href="#" onClick="return toggleMember('TRANSFORM_CHILDREN', false);">
+<tt><b>TRANSFORM_CHILDREN</b></tt>
+</a>
+</div>
+<div id="TRANSFORM_CHILDREN-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('TRANSFORM_CHILDREN', false);"><tt><b>TRANSFORM_CHILDREN</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('TRANSFORM_CHILDREN', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="TRANSFORM_FILL_GRADIENTS-link" class="member-link">
+<a name="TRANSFORM_FILL_GRADIENTS" href="#" onClick="return toggleMember('TRANSFORM_FILL_GRADIENTS', false);">
+<tt><b>TRANSFORM_FILL_GRADIENTS</b></tt>
+</a>
+</div>
+<div id="TRANSFORM_FILL_GRADIENTS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('TRANSFORM_FILL_GRADIENTS', false);"><tt><b>TRANSFORM_FILL_GRADIENTS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('TRANSFORM_FILL_GRADIENTS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="TRANSFORM_FILL_PATTERNS-link" class="member-link">
+<a name="TRANSFORM_FILL_PATTERNS" href="#" onClick="return toggleMember('TRANSFORM_FILL_PATTERNS', false);">
+<tt><b>TRANSFORM_FILL_PATTERNS</b></tt>
+</a>
+</div>
+<div id="TRANSFORM_FILL_PATTERNS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('TRANSFORM_FILL_PATTERNS', false);"><tt><b>TRANSFORM_FILL_PATTERNS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('TRANSFORM_FILL_PATTERNS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="TRANSFORM_LINES-link" class="member-link">
+<a name="TRANSFORM_LINES" href="#" onClick="return toggleMember('TRANSFORM_LINES', false);">
+<tt><b>TRANSFORM_LINES</b></tt>
+</a>
+</div>
+<div id="TRANSFORM_LINES-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('TRANSFORM_LINES', false);"><tt><b>TRANSFORM_LINES</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('TRANSFORM_LINES', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="TRANSFORM_LINKED_MASKS-link" class="member-link">
+<a name="TRANSFORM_LINKED_MASKS" href="#" onClick="return toggleMember('TRANSFORM_LINKED_MASKS', false);">
+<tt><b>TRANSFORM_LINKED_MASKS</b></tt>
+</a>
+</div>
+<div id="TRANSFORM_LINKED_MASKS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('TRANSFORM_LINKED_MASKS', false);"><tt><b>TRANSFORM_LINKED_MASKS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('TRANSFORM_LINKED_MASKS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="TRANSFORM_OBJECTS-link" class="member-link">
+<a name="TRANSFORM_OBJECTS" href="#" onClick="return toggleMember('TRANSFORM_OBJECTS', false);">
+<tt><b>TRANSFORM_OBJECTS</b></tt>
+</a>
+</div>
+<div id="TRANSFORM_OBJECTS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('TRANSFORM_OBJECTS', false);"><tt><b>TRANSFORM_OBJECTS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('TRANSFORM_OBJECTS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="TRANSFORM_SELECTION_ONLY-link" class="member-link">
+<a name="TRANSFORM_SELECTION_ONLY" href="#" onClick="return toggleMember('TRANSFORM_SELECTION_ONLY', false);">
+<tt><b>TRANSFORM_SELECTION_ONLY</b></tt>
+</a>
+</div>
+<div id="TRANSFORM_SELECTION_ONLY-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('TRANSFORM_SELECTION_ONLY', false);"><tt><b>TRANSFORM_SELECTION_ONLY</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('TRANSFORM_SELECTION_ONLY', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="TRANSFORM_STROKE_PATTERNS-link" class="member-link">
+<a name="TRANSFORM_STROKE_PATTERNS" href="#" onClick="return toggleMember('TRANSFORM_STROKE_PATTERNS', false);">
+<tt><b>TRANSFORM_STROKE_PATTERNS</b></tt>
+</a>
+</div>
+<div id="TRANSFORM_STROKE_PATTERNS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('TRANSFORM_STROKE_PATTERNS', false);"><tt><b>TRANSFORM_STROKE_PATTERNS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('TRANSFORM_STROKE_PATTERNS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+</div>
+
+
+
+<h2>Functions</h2><div class="documentation-paragraph">
+<div id="appendChild(com.scriptographer.ai.Art)-link" class="member-link">
+<a name="appendChild(com.scriptographer.ai.Art)" href="#" onClick="return toggleMember('appendChild(com.scriptographer.ai.Art)', false);">
+<tt><b>appendChild</b>(art)</tt>
+</a>
+</div>
+<div id="appendChild(com.scriptographer.ai.Art)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('appendChild(com.scriptographer.ai.Art)', false);"><tt><b>appendChild</b>(art)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('appendChild(com.scriptographer.ai.Art)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Appends the specified art item as a child of this art item.<br />
+ You can use this function for groups, compound paths and layers.<br />
+ Sample code:<br />
+ <pre>
+ var group = new Group();
+ var path = new Path();
+ group.appendChild(path);
+ print(path.isInside(group)) // returns true
+ </pre></div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>art: </tt><tt><i><a href="../ai/Art.html">Art</a></i></tt> - The art item that will be appended as a child
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="clone()-link" class="member-link">
+<a name="clone()" href="#" onClick="return toggleMember('clone()', false);">
+<tt><b>clone</b>()</tt>
+</a>
+</div>
+<div id="clone()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('clone()', false);"><tt><b>clone</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('clone()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Clones the art item within the same document.</div>
+
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Object</tt>
+ - the newly cloned art object</div> 
+</div></div>
+</div>
+
+
+<div id="copyTo(com.scriptographer.ai.Document)-link" class="member-link">
+<a name="copyTo(com.scriptographer.ai.Document)" href="#" onClick="return toggleMember('copyTo(com.scriptographer.ai.Document)', false);">
+<tt><b>copyTo</b>(document)</tt>
+</a>
+</div>
+<div id="copyTo(com.scriptographer.ai.Document)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('copyTo(com.scriptographer.ai.Document)', false);"><tt><b>copyTo</b>(document)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('copyTo(com.scriptographer.ai.Document)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Copies the art item to another document, or duplicates it within the
+ same document.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>document: </tt><tt><a href="../ai/Document.html">Document</a></tt> - the document to copy the art item to
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/Art.html">Art</a></i></tt>
+ - the new copy of the art item</div> 
+</div></div>
+</div>
+
+
+<div id="copyTo(com.scriptographer.ai.Art)-link" class="member-link">
+<a name="copyTo(com.scriptographer.ai.Art)" href="#" onClick="return toggleMember('copyTo(com.scriptographer.ai.Art)', false);">
+<tt><b>copyTo</b>(art)</tt>
+</a>
+</div>
+<div id="copyTo(com.scriptographer.ai.Art)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('copyTo(com.scriptographer.ai.Art)', false);"><tt><b>copyTo</b>(art)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('copyTo(com.scriptographer.ai.Art)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Copies the art item into the specified art item.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>art: </tt><tt><i><a href="../ai/Art.html">Art</a></i></tt>
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/Art.html">Art</a></i></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="expand(int, int)-link" class="member-link">
+<a name="expand(int, int)" href="#" onClick="return toggleMember('expand(int, int)', false);">
+<tt><b>expand</b>(flags, steps)</tt>
+</a>
+</div>
+<div id="expand(int, int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('expand(int, int)', false);"><tt><b>expand</b>(flags, steps)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('expand(int, int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Breaks artwork up into individual parts and works just like calling
+ &quot;expand&quot; from the Object menu in Illustrator.<br />
+ It outlines stroked lines, text objects, gradients, patterns, etc.<br />
+ The art item itself is removed, and the newly created item containing the
+ expanded artwork is returned.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>flags: </tt><tt>Number</tt> - #EXPAND_*
+	</div>
+	<div><tt>steps: </tt><tt>Number</tt> - the amount of steps for gradient, when the
+        #EXPAND_GRADIENTTOPATHS flag is set
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/Art.html">Art</a></i></tt>
+ - the newly created item containing the expanded artwork</div> 
+</div></div>
+</div>
+
+
+<div id="hasChildren()-link" class="member-link">
+<a name="hasChildren()" href="#" onClick="return toggleMember('hasChildren()', false);">
+<tt><b>hasChildren</b>()</tt>
+</a>
+</div>
+<div id="hasChildren()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('hasChildren()', false);"><tt><b>hasChildren</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('hasChildren()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Checks if the art object has children.</div>
+
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - true if it has one or more children, false otherwise</div> 
+</div></div>
+</div>
+
+
+<div id="hitTest(com.scriptographer.ai.Point, int, float)-link" class="member-link">
+<a name="hitTest(com.scriptographer.ai.Point, int, float)" href="#" onClick="return toggleMember('hitTest(com.scriptographer.ai.Point, int, float)', false);">
+<tt><b>hitTest</b>(point[, type[, tolerance]])</tt>
+</a>
+</div>
+<div id="hitTest(com.scriptographer.ai.Point, int, float)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('hitTest(com.scriptographer.ai.Point, int, float)', false);"><tt><b>hitTest</b>(point[, type[, tolerance]])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('hitTest(com.scriptographer.ai.Point, int, float)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>point: </tt><tt><a href="../ai/Point.html">Point</a></tt>	</div>
+	<div><tt>type: </tt><tt>Number</tt>	</div>
+	<div><tt>tolerance: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/HitTest.html">HitTest</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="isAbove(com.scriptographer.ai.Art)-link" class="member-link">
+<a name="isAbove(com.scriptographer.ai.Art)" href="#" onClick="return toggleMember('isAbove(com.scriptographer.ai.Art)', false);">
+<tt><b>isAbove</b>(art)</tt>
+</a>
+</div>
+<div id="isAbove(com.scriptographer.ai.Art)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('isAbove(com.scriptographer.ai.Art)', false);"><tt><b>isAbove</b>(art)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('isAbove(com.scriptographer.ai.Art)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Checks if this art item is above the specified art item in the stacking
+ order of the document.<br />
+ Sample code:<br />
+ <pre>
+ var firstPath = new Path();
+ var secondPath = new Path();
+ print(secondPath.isAbove(firstPath)) // returns true
+ </pre></div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>art: </tt><tt><i><a href="../ai/Art.html">Art</a></i></tt> - The art item to check against
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - <tt>true</tt> if it is above the specified art item, false
+         otherwise</div> 
+</div></div>
+</div>
+
+
+<div id="isAncestor(com.scriptographer.ai.Art)-link" class="member-link">
+<a name="isAncestor(com.scriptographer.ai.Art)" href="#" onClick="return toggleMember('isAncestor(com.scriptographer.ai.Art)', false);">
+<tt><b>isAncestor</b>(art)</tt>
+</a>
+</div>
+<div id="isAncestor(com.scriptographer.ai.Art)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('isAncestor(com.scriptographer.ai.Art)', false);"><tt><b>isAncestor</b>(art)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('isAncestor(com.scriptographer.ai.Art)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Checks if this art item is an ancestor of the specified art item.<br />
+ Sample code:<br />
+ <pre>
+ var group = new Group();
+ var path = new Path();
+ group.appendChild(path);
+ print(group.isAncestor(path)) // returns true
+ </pre></div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>art: </tt><tt><i><a href="../ai/Art.html">Art</a></i></tt> - the art item to check against
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - <tt>true</tt> if it is an ancestor of the specified art
+         item, false otherwise</div> 
+</div></div>
+</div>
+
+
+<div id="isBelow(com.scriptographer.ai.Art)-link" class="member-link">
+<a name="isBelow(com.scriptographer.ai.Art)" href="#" onClick="return toggleMember('isBelow(com.scriptographer.ai.Art)', false);">
+<tt><b>isBelow</b>(art)</tt>
+</a>
+</div>
+<div id="isBelow(com.scriptographer.ai.Art)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('isBelow(com.scriptographer.ai.Art)', false);"><tt><b>isBelow</b>(art)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('isBelow(com.scriptographer.ai.Art)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Checks if the art item is below the specified art item in the stacking
+ order of the document
+ Sample code:<br />
+ <pre>
+ var firstPath = new Path();
+ var secondPath = new Path();
+ print(firstPath.isBelow(secondPath)) // returns true
+ </pre></div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>art: </tt><tt><i><a href="../ai/Art.html">Art</a></i></tt> - The art item to check against
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - <tt>true</tt> if it is below the specified art item, false
+         otherwise</div> 
+</div></div>
+</div>
+
+
+<div id="isDefaultName()-link" class="member-link">
+<a name="isDefaultName()" href="#" onClick="return toggleMember('isDefaultName()', false);">
+<tt><b>isDefaultName</b>()</tt>
+</a>
+</div>
+<div id="isDefaultName()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('isDefaultName()', false);"><tt><b>isDefaultName</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('isDefaultName()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Checks if the art item's name as it appears in the layers palette is a
+ default descriptive name, rather then a user-assigned name.</div>
+
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - <tt>true</tt> if it's name is default, <tt>false</tt> otherwise.</div> 
+</div></div>
+</div>
+
+
+<div id="isInside(com.scriptographer.ai.Art)-link" class="member-link">
+<a name="isInside(com.scriptographer.ai.Art)" href="#" onClick="return toggleMember('isInside(com.scriptographer.ai.Art)', false);">
+<tt><b>isInside</b>(art)</tt>
+</a>
+</div>
+<div id="isInside(com.scriptographer.ai.Art)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('isInside(com.scriptographer.ai.Art)', false);"><tt><b>isInside</b>(art)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('isInside(com.scriptographer.ai.Art)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Checks if the art item is contained within the specified art item
+ Sample code:<br />
+ <pre>
+ var group = new Group();
+ var path = new Path();
+ group.appendChild(path);
+ print(path.isInside(group)) // returns true
+ </pre></div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>art: </tt><tt><i><a href="../ai/Art.html">Art</a></i></tt> - The art item to check against
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - <tt>true</tt> if it is inside the specified art item,
+         false otherwise</div> 
+</div></div>
+</div>
+
+
+<div id="moveAbove(com.scriptographer.ai.Art)-link" class="member-link">
+<a name="moveAbove(com.scriptographer.ai.Art)" href="#" onClick="return toggleMember('moveAbove(com.scriptographer.ai.Art)', false);">
+<tt><b>moveAbove</b>(art)</tt>
+</a>
+</div>
+<div id="moveAbove(com.scriptographer.ai.Art)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('moveAbove(com.scriptographer.ai.Art)', false);"><tt><b>moveAbove</b>(art)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('moveAbove(com.scriptographer.ai.Art)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Moves this art item above the specified art item.<br />
+ Sample code:<br />
+ <pre>
+ var firstPath = new Path();
+ var secondPath = new Path();
+ print(firstPath.isAbove(secondPath)) // returns false
+ firstPath.moveAbove(secondPath);
+ print(firstPath.isAbove(secondPath)) // returns true
+ </pre></div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>art: </tt><tt><i><a href="../ai/Art.html">Art</a></i></tt> - The art item above which it should be moved
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - true if it was moved, false otherwise</div> 
+</div></div>
+</div>
+
+
+<div id="moveBelow(com.scriptographer.ai.Art)-link" class="member-link">
+<a name="moveBelow(com.scriptographer.ai.Art)" href="#" onClick="return toggleMember('moveBelow(com.scriptographer.ai.Art)', false);">
+<tt><b>moveBelow</b>(art)</tt>
+</a>
+</div>
+<div id="moveBelow(com.scriptographer.ai.Art)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('moveBelow(com.scriptographer.ai.Art)', false);"><tt><b>moveBelow</b>(art)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('moveBelow(com.scriptographer.ai.Art)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Moves the art item below the specified art object.<br />
+ <pre>
+ var firstPath = new Path();
+ var secondPath = new Path();
+ print(secondPath.isBelow(firstPath)) // returns false
+ secondPath.moveBelow(firstPath);
+ print(secondPath.isBelow(firstPath)) // returns true
+ </pre></div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>art: </tt><tt><i><a href="../ai/Art.html">Art</a></i></tt> - the art item below which it should be moved
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - true if it was moved, false otherwise</div> 
+</div></div>
+</div>
+
+
+<div id="rasterize(int, float, int, float, float)-link" class="member-link">
+<a name="rasterize(int, float, int, float, float)" href="#" onClick="return toggleMember('rasterize(int, float, int, float, float)', false);">
+<tt><b>rasterize</b>(type[, resolution, antialiasing[, width, height]])</tt>
+</a>
+</div>
+<div id="rasterize(int, float, int, float, float)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('rasterize(int, float, int, float, float)', false);"><tt><b>rasterize</b>(type[, resolution, antialiasing[, width, height]])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('rasterize(int, float, int, float, float)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>type: </tt><tt>Number</tt>	</div>
+	<div><tt>resolution: </tt><tt>Number</tt>	</div>
+	<div><tt>antialiasing: </tt><tt>Number</tt>	</div>
+	<div><tt>width: </tt><tt>Number</tt>	</div>
+	<div><tt>height: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/Raster.html">Raster</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="remove()-link" class="member-link">
+<a name="remove()" href="#" onClick="return toggleMember('remove()', false);">
+<tt><b>remove</b>()</tt>
+</a>
+</div>
+<div id="remove()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('remove()', false);"><tt><b>remove</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('remove()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Removes the art item from the document. If the art item has children,
+ they are also removed.</div>
+
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - <tt>true</tt> if the art item was removed, false
+         otherwise</div> 
+</div></div>
+</div>
+
+
+<div id="rotate(double, float, float)-link" class="member-link">
+<a name="rotate(double, float, float)" href="#" onClick="return toggleMember('rotate(double, float, float)', false);">
+<tt><b>rotate</b>(theta[, x, y])</tt>
+</a>
+</div>
+<div id="rotate(double, float, float)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('rotate(double, float, float)', false);"><tt><b>rotate</b>(theta[, x, y])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('rotate(double, float, float)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Rotates the art item around an anchor point by a given angle.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>theta: </tt><tt>Number</tt> - the rotation angle in radians
+	</div>
+	<div><tt>x: </tt><tt>Number</tt>	</div>
+	<div><tt>y: </tt><tt>Number</tt>	</div>
+</div>
+
+
+
+
+
+<div class="member-paragraph"><b>See also:</b><tt><a href=&quot;../ai/Matrix.html&quot;>Matrix</a></tt></div></div>
+</div>
+
+
+<div id="rotate(double, com.scriptographer.ai.Point)-link" class="member-link">
+<a name="rotate(double, com.scriptographer.ai.Point)" href="#" onClick="return toggleMember('rotate(double, com.scriptographer.ai.Point)', false);">
+<tt><b>rotate</b>(theta, anchor)</tt>
+</a>
+</div>
+<div id="rotate(double, com.scriptographer.ai.Point)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('rotate(double, com.scriptographer.ai.Point)', false);"><tt><b>rotate</b>(theta, anchor)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('rotate(double, com.scriptographer.ai.Point)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>theta: </tt><tt>Number</tt>	</div>
+	<div><tt>anchor: </tt><tt><a href="../ai/Point.html">Point</a></tt>	</div>
+</div></div>
+</div>
+
+
+<div id="scale(double, double)-link" class="member-link">
+<a name="scale(double, double)" href="#" onClick="return toggleMember('scale(double, double)', false);">
+<tt><b>scale</b>(scale[, sy])</tt>
+</a>
+</div>
+<div id="scale(double, double)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('scale(double, double)', false);"><tt><b>scale</b>(scale[, sy])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('scale(double, double)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Scales the art item by creating a scale Matrix and executing transform()</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>sx: </tt><tt>Number</tt>
+	</div>
+	<div><tt>sy: </tt><tt>Number</tt>
+	</div>
+</div>
+
+
+
+
+
+<div class="member-paragraph"><b>See also:</b><tt><a href=&quot;../ai/Matrix.html#scale(com.scriptographer.ai.Point)&quot; onClick=&quot;return toggleMember('scale(com.scriptographer.ai.Point)', true);&quot;>scale(scale)</a></tt></div></div>
+</div>
+
+
+<div id="shear(double, double)-link" class="member-link">
+<a name="shear(double, double)" href="#" onClick="return toggleMember('shear(double, double)', false);">
+<tt><b>shear</b>(shx, shy)</tt>
+</a>
+</div>
+<div id="shear(double, double)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('shear(double, double)', false);"><tt><b>shear</b>(shx, shy)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('shear(double, double)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Shears the art item with a given amount.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>shx: </tt><tt>Number</tt>
+	</div>
+	<div><tt>shy: </tt><tt>Number</tt>
+	</div>
+</div>
+
+
+
+
+
+<div class="member-paragraph"><b>See also:</b><tt><a href=&quot;../ai/Matrix.html#shear(double, double)&quot; onClick=&quot;return toggleMember('shear(double, double)', true);&quot;>shear(shearX, shearY)</a></tt></div></div>
+</div>
+
+
+<div id="transform(com.scriptographer.ai.Matrix, int)-link" class="member-link">
+<a name="transform(com.scriptographer.ai.Matrix, int)" href="#" onClick="return toggleMember('transform(com.scriptographer.ai.Matrix, int)', false);">
+<tt><b>transform</b>(matrix[, flags])</tt>
+</a>
+</div>
+<div id="transform(com.scriptographer.ai.Matrix, int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('transform(com.scriptographer.ai.Matrix, int)', false);"><tt><b>transform</b>(matrix[, flags])</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('transform(com.scriptographer.ai.Matrix, int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Transforms the art item with custom flags to be set.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>matrix: </tt><tt><a href="../ai/Matrix.html">Matrix</a></tt>	</div>
+	<div><tt>flags: </tt><tt>Number</tt> - Art. TRANSFORM_*
+	</div>
+</div></div>
+</div>
+
+
+<div id="translate(double, double)-link" class="member-link">
+<a name="translate(double, double)" href="#" onClick="return toggleMember('translate(double, double)', false);">
+<tt><b>translate</b>(tx, ty)</tt>
+</a>
+</div>
+<div id="translate(double, double)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('translate(double, double)', false);"><tt><b>translate</b>(tx, ty)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('translate(double, double)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Translates (moves) the art item by the given offsets.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>tx: </tt><tt>Number</tt>
+	</div>
+	<div><tt>ty: </tt><tt>Number</tt>
+	</div>
+</div>
+
+
+
+
+
+<div class="member-paragraph"><b>See also:</b><tt><a href=&quot;../ai/Matrix.html#translate(com.scriptographer.ai.Point)&quot; onClick=&quot;return toggleMember('translate(com.scriptographer.ai.Point)', true);&quot;>translate(pt)</a></tt></div></div>
+</div>
+
+
+<div id="translate(com.scriptographer.ai.Point)-link" class="member-link">
+<a name="translate(com.scriptographer.ai.Point)" href="#" onClick="return toggleMember('translate(com.scriptographer.ai.Point)', false);">
+<tt><b>translate</b>(t)</tt>
+</a>
+</div>
+<div id="translate(com.scriptographer.ai.Point)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('translate(com.scriptographer.ai.Point)', false);"><tt><b>translate</b>(t)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('translate(com.scriptographer.ai.Point)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Translates (moves) the art item by the given offset point.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>t: </tt><tt><a href="../ai/Point.html">Point</a></tt>
+	</div>
+</div></div>
+</div>
+
+</div>
+
+
+
+
+
+<p class="footer">Copyright &#169; 2001-2007 J&uuml;rg Lehni, <a href=http://www.scratchdisk.com target=_blank>Scratchdisk.com</a>. All Rights Reserved.</p>
+</body>
+</html>

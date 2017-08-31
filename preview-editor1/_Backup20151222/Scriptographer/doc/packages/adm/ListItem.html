@@ -1,0 +1,773 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>ListItem</title>
+<base target="classFrame">
+<link rel="stylesheet" href="../../resources/style.css" type="text/css">
+<script src="../../resources/scripts.js" type="text/javascript"></script>
+</head>
+<body class="documentation">
+<h1>ListItem</h1>
+
+
+
+<p> <tt><i><a href="../adm/ListItem.html">ListItem</a></i></tt> extends <tt><i><a href="../adm/Item.html">Item</a></i></tt></p>
+<p>ListItem is a ADM list item (e.g. ListBox, PopupMenu, ...) and a
+ ADM list object (e.g. List, HierarchyList) in one. It melts the
+ two objects to one and makes handling much easier.</p>
+
+
+
+
+<h2>Properties</h2><div class="documentation-paragraph">
+<div id="activeEntry-link" class="member-link">
+<a name="activeEntry" href="#" onClick="return toggleMember('activeEntry', false);">
+<tt><b>activeEntry</b></tt>
+</a>
+</div>
+<div id="activeEntry-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('activeEntry', false);"><tt><b>activeEntry</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('activeEntry', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../adm/ListEntry.html">ListEntry</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="backgroundColor-link" class="member-link">
+<a name="backgroundColor" href="#" onClick="return toggleMember('backgroundColor', false);">
+<tt><b>backgroundColor</b></tt>
+</a>
+</div>
+<div id="backgroundColor-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('backgroundColor', false);"><tt><b>backgroundColor</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('backgroundColor', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="drawEntryCallback-link" class="member-link">
+<a name="drawEntryCallback" href="#" onClick="return toggleMember('drawEntryCallback', false);">
+<tt><b>drawEntryCallback</b></tt>
+</a>
+</div>
+<div id="drawEntryCallback-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('drawEntryCallback', false);"><tt><b>drawEntryCallback</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('drawEntryCallback', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="empty-link" class="member-link">
+<a name="empty" href="#" onClick="return toggleMember('empty', false);">
+<tt><b>empty</b></tt>
+</a>
+</div>
+<div id="empty-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('empty', false);"><tt><b>empty</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('empty', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="entrySize-link" class="member-link">
+<a name="entrySize" href="#" onClick="return toggleMember('entrySize', false);">
+<tt><b>entrySize</b></tt>
+</a>
+</div>
+<div id="entrySize-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('entrySize', false);"><tt><b>entrySize</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('entrySize', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../adm/Size.html">Size</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="entryTextRect-link" class="member-link">
+<a name="entryTextRect" href="#" onClick="return toggleMember('entryTextRect', false);">
+<tt><b>entryTextRect</b></tt>
+</a>
+</div>
+<div id="entryTextRect-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('entryTextRect', false);"><tt><b>entryTextRect</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('entryTextRect', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../adm/Rectangle.html">Rectangle</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="onChange-link" class="member-link">
+<a name="onChange" href="#" onClick="return toggleMember('onChange', false);">
+<tt><b>onChange</b></tt>
+</a>
+</div>
+<div id="onChange-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('onChange', false);"><tt><b>onChange</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('onChange', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Callable</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="onChangeEntryText-link" class="member-link">
+<a name="onChangeEntryText" href="#" onClick="return toggleMember('onChangeEntryText', false);">
+<tt><b>onChangeEntryText</b></tt>
+</a>
+</div>
+<div id="onChangeEntryText-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('onChangeEntryText', false);"><tt><b>onChangeEntryText</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('onChangeEntryText', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Callable</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="onDestroyEntry-link" class="member-link">
+<a name="onDestroyEntry" href="#" onClick="return toggleMember('onDestroyEntry', false);">
+<tt><b>onDestroyEntry</b></tt>
+</a>
+</div>
+<div id="onDestroyEntry-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('onDestroyEntry', false);"><tt><b>onDestroyEntry</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('onDestroyEntry', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Callable</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="onDrawEntry-link" class="member-link">
+<a name="onDrawEntry" href="#" onClick="return toggleMember('onDrawEntry', false);">
+<tt><b>onDrawEntry</b></tt>
+</a>
+</div>
+<div id="onDrawEntry-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('onDrawEntry', false);"><tt><b>onDrawEntry</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('onDrawEntry', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Callable</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="onPreChange-link" class="member-link">
+<a name="onPreChange" href="#" onClick="return toggleMember('onPreChange', false);">
+<tt><b>onPreChange</b></tt>
+</a>
+</div>
+<div id="onPreChange-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('onPreChange', false);"><tt><b>onPreChange</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('onPreChange', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Callable</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="onSelectEntry-link" class="member-link">
+<a name="onSelectEntry" href="#" onClick="return toggleMember('onSelectEntry', false);">
+<tt><b>onSelectEntry</b></tt>
+</a>
+</div>
+<div id="onSelectEntry-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('onSelectEntry', false);"><tt><b>onSelectEntry</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('onSelectEntry', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Callable</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="onTrackEntry-link" class="member-link">
+<a name="onTrackEntry" href="#" onClick="return toggleMember('onTrackEntry', false);">
+<tt><b>onTrackEntry</b></tt>
+</a>
+</div>
+<div id="onTrackEntry-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('onTrackEntry', false);"><tt><b>onTrackEntry</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('onTrackEntry', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Callable</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="selected-link" class="member-link">
+<a name="selected" href="#" onClick="return toggleMember('selected', false);">
+<tt><b>selected</b></tt>
+</a>
+</div>
+<div id="selected-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('selected', false);"><tt><b>selected</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('selected', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Array of <a href="../adm/ListEntry.html">ListEntry</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="trackEntryCallback-link" class="member-link">
+<a name="trackEntryCallback" href="#" onClick="return toggleMember('trackEntryCallback', false);">
+<tt><b>trackEntryCallback</b></tt>
+</a>
+</div>
+<div id="trackEntryCallback-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('trackEntryCallback', false);"><tt><b>trackEntryCallback</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('trackEntryCallback', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="trackMask-link" class="member-link">
+<a name="trackMask" href="#" onClick="return toggleMember('trackMask', false);">
+<tt><b>trackMask</b></tt>
+</a>
+</div>
+<div id="trackMask-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('trackMask', false);"><tt><b>trackMask</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('trackMask', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+</div>
+
+
+
+<h2>Functions</h2><div class="documentation-paragraph">
+<div id="add(int, java.lang.Object)-link" class="member-link">
+<a name="add(int, java.lang.Object)" href="#" onClick="return toggleMember('add(int, java.lang.Object)', false);">
+<tt><b>add</b>(index, element)</tt>
+</a>
+</div>
+<div id="add(int, java.lang.Object)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('add(int, java.lang.Object)', false);"><tt><b>add</b>(index, element)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('add(int, java.lang.Object)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>index: </tt><tt>Number</tt>	</div>
+	<div><tt>element: </tt><tt>Object</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Object</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="add(java.lang.Object)-link" class="member-link">
+<a name="add(java.lang.Object)" href="#" onClick="return toggleMember('add(java.lang.Object)', false);">
+<tt><b>add</b>(element)</tt>
+</a>
+</div>
+<div id="add(java.lang.Object)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('add(java.lang.Object)', false);"><tt><b>add</b>(element)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('add(java.lang.Object)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>element: </tt><tt>Object</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Object</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="addAll(com.scratchdisk.list.ExtendedList)-link" class="member-link">
+<a name="addAll(com.scratchdisk.list.ExtendedList)" href="#" onClick="return toggleMember('addAll(com.scratchdisk.list.ExtendedList)', false);">
+<tt><b>addAll</b>(elements)</tt>
+</a>
+</div>
+<div id="addAll(com.scratchdisk.list.ExtendedList)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('addAll(com.scratchdisk.list.ExtendedList)', false);"><tt><b>addAll</b>(elements)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('addAll(com.scratchdisk.list.ExtendedList)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>elements: </tt><tt>ExtendedList</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="get(int)-link" class="member-link">
+<a name="get(int)" href="#" onClick="return toggleMember('get(int)', false);">
+<tt><b>get</b>(index)</tt>
+</a>
+</div>
+<div id="get(int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('get(int)', false);"><tt><b>get</b>(index)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('get(int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>index: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Object</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="get(java.lang.String)-link" class="member-link">
+<a name="get(java.lang.String)" href="#" onClick="return toggleMember('get(java.lang.String)', false);">
+<tt><b>get</b>(text)</tt>
+</a>
+</div>
+<div id="get(java.lang.String)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('get(java.lang.String)', false);"><tt><b>get</b>(text)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('get(java.lang.String)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>text: </tt><tt>String</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../adm/ListEntry.html">ListEntry</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="getAt(int, int)-link" class="member-link">
+<a name="getAt(int, int)" href="#" onClick="return toggleMember('getAt(int, int)', false);">
+<tt><b>getAt</b>(x, y)</tt>
+</a>
+</div>
+<div id="getAt(int, int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('getAt(int, int)', false);"><tt><b>getAt</b>(x, y)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('getAt(int, int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>x: </tt><tt>Number</tt>	</div>
+	<div><tt>y: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../adm/ListEntry.html">ListEntry</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="getAt(com.scriptographer.adm.Point)-link" class="member-link">
+<a name="getAt(com.scriptographer.adm.Point)" href="#" onClick="return toggleMember('getAt(com.scriptographer.adm.Point)', false);">
+<tt><b>getAt</b>(point)</tt>
+</a>
+</div>
+<div id="getAt(com.scriptographer.adm.Point)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('getAt(com.scriptographer.adm.Point)', false);"><tt><b>getAt</b>(point)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('getAt(com.scriptographer.adm.Point)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>point: </tt><tt><a href="../adm/Point.html">Point</a></tt>	</div>
+</div></div>
+</div>
+
+
+<div id="getSubList(int, int)-link" class="member-link">
+<a name="getSubList(int, int)" href="#" onClick="return toggleMember('getSubList(int, int)', false);">
+<tt><b>getSubList</b>(fromIndex, toIndex)</tt>
+</a>
+</div>
+<div id="getSubList(int, int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('getSubList(int, int)', false);"><tt><b>getSubList</b>(fromIndex, toIndex)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('getSubList(int, int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>fromIndex: </tt><tt>Number</tt>	</div>
+	<div><tt>toIndex: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>ExtendedList</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="remove(int)-link" class="member-link">
+<a name="remove(int)" href="#" onClick="return toggleMember('remove(int)', false);">
+<tt><b>remove</b>(index)</tt>
+</a>
+</div>
+<div id="remove(int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('remove(int)', false);"><tt><b>remove</b>(index)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('remove(int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>index: </tt><tt>Number</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Object</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="remove(int, int)-link" class="member-link">
+<a name="remove(int, int)" href="#" onClick="return toggleMember('remove(int, int)', false);">
+<tt><b>remove</b>(fromIndex, toIndex)</tt>
+</a>
+</div>
+<div id="remove(int, int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('remove(int, int)', false);"><tt><b>remove</b>(fromIndex, toIndex)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('remove(int, int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>fromIndex: </tt><tt>Number</tt>	</div>
+	<div><tt>toIndex: </tt><tt>Number</tt>	</div>
+</div></div>
+</div>
+
+
+<div id="selectByText(java.lang.String)-link" class="member-link">
+<a name="selectByText(java.lang.String)" href="#" onClick="return toggleMember('selectByText(java.lang.String)', false);">
+<tt><b>selectByText</b>(text)</tt>
+</a>
+</div>
+<div id="selectByText(java.lang.String)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('selectByText(java.lang.String)', false);"><tt><b>selectByText</b>(text)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('selectByText(java.lang.String)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>text: </tt><tt>String</tt>	</div>
+</div></div>
+</div>
+
+
+<div id="set(int, java.lang.Object)-link" class="member-link">
+<a name="set(int, java.lang.Object)" href="#" onClick="return toggleMember('set(int, java.lang.Object)', false);">
+<tt><b>set</b>(index, element)</tt>
+</a>
+</div>
+<div id="set(int, java.lang.Object)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('set(int, java.lang.Object)', false);"><tt><b>set</b>(index, element)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('set(int, java.lang.Object)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>index: </tt><tt>Number</tt>	</div>
+	<div><tt>element: </tt><tt>Object</tt>	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Object</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="setEntrySize(int, int)-link" class="member-link">
+<a name="setEntrySize(int, int)" href="#" onClick="return toggleMember('setEntrySize(int, int)', false);">
+<tt><b>setEntrySize</b>(width, height)</tt>
+</a>
+</div>
+<div id="setEntrySize(int, int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('setEntrySize(int, int)', false);"><tt><b>setEntrySize</b>(width, height)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('setEntrySize(int, int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>width: </tt><tt>Number</tt>	</div>
+	<div><tt>height: </tt><tt>Number</tt>	</div>
+</div></div>
+</div>
+
+
+<div id="setEntrySize(com.scriptographer.adm.Point)-link" class="member-link">
+<a name="setEntrySize(com.scriptographer.adm.Point)" href="#" onClick="return toggleMember('setEntrySize(com.scriptographer.adm.Point)', false);">
+<tt><b>setEntrySize</b>(size)</tt>
+</a>
+</div>
+<div id="setEntrySize(com.scriptographer.adm.Point)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('setEntrySize(com.scriptographer.adm.Point)', false);"><tt><b>setEntrySize</b>(size)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('setEntrySize(com.scriptographer.adm.Point)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>size: </tt><tt><a href="../adm/Point.html">Point</a></tt>	</div>
+</div></div>
+</div>
+
+
+<div id="setEntrySize(int[])-link" class="member-link">
+<a name="setEntrySize(int[])" href="#" onClick="return toggleMember('setEntrySize(int[])', false);">
+<tt><b>setEntrySize</b>(size)</tt>
+</a>
+</div>
+<div id="setEntrySize(int[])-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('setEntrySize(int[])', false);"><tt><b>setEntrySize</b>(size)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('setEntrySize(int[])', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>size: </tt><tt>Array of Numbers</tt>	</div>
+</div></div>
+</div>
+
+
+<div id="setEntryTextRect(int, int, int, int)-link" class="member-link">
+<a name="setEntryTextRect(int, int, int, int)" href="#" onClick="return toggleMember('setEntryTextRect(int, int, int, int)', false);">
+<tt><b>setEntryTextRect</b>(x, y, width, height)</tt>
+</a>
+</div>
+<div id="setEntryTextRect(int, int, int, int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('setEntryTextRect(int, int, int, int)', false);"><tt><b>setEntryTextRect</b>(x, y, width, height)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('setEntryTextRect(int, int, int, int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>x: </tt><tt>Number</tt>	</div>
+	<div><tt>y: </tt><tt>Number</tt>	</div>
+	<div><tt>width: </tt><tt>Number</tt>	</div>
+	<div><tt>height: </tt><tt>Number</tt>	</div>
+</div></div>
+</div>
+
+
+<div id="setEntryTextRect(int[])-link" class="member-link">
+<a name="setEntryTextRect(int[])" href="#" onClick="return toggleMember('setEntryTextRect(int[])', false);">
+<tt><b>setEntryTextRect</b>(rect)</tt>
+</a>
+</div>
+<div id="setEntryTextRect(int[])-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('setEntryTextRect(int[])', false);"><tt><b>setEntryTextRect</b>(rect)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('setEntryTextRect(int[])', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>rect: </tt><tt>Array of Numbers</tt>	</div>
+</div></div>
+</div>
+
+
+<div id="size()-link" class="member-link">
+<a name="size()" href="#" onClick="return toggleMember('size()', false);">
+<tt><b>size</b>()</tt>
+</a>
+</div>
+<div id="size()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('size()', false);"><tt><b>size</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('size()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+</div>
+
+
+
+	<h2>Inheritance</h2>
+	<ul class="documentation-inherited">
+	<li><tt><i><a href="../adm/Item.html">Item</a></i></tt></li>
+	<li>
+		<ul>
+			<li><tt><a href="../adm/Item.html#active" onClick="return toggleMember('active', true);">active</a></tt></li>
+			<li><tt><a href="../adm/Item.html#backgroundColor" onClick="return toggleMember('backgroundColor', true);">backgroundColor</a></tt></li>
+			<li><tt><a href="../adm/Item.html#bestSize" onClick="return toggleMember('bestSize', true);">bestSize</a></tt></li>
+			<li><tt><a href="../adm/Item.html#bounds" onClick="return toggleMember('bounds', true);">bounds</a></tt></li>
+			<li><tt><a href="../adm/Item.html#cursor" onClick="return toggleMember('cursor', true);">cursor</a></tt></li>
+			<li><tt><a href="../adm/Item.html#dialog" onClick="return toggleMember('dialog', true);">dialog</a></tt></li>
+			<li><tt><a href="../adm/Item.html#drawCallback" onClick="return toggleMember('drawCallback', true);">drawCallback</a></tt></li>
+			<li><tt><a href="../adm/Item.html#enabled" onClick="return toggleMember('enabled', true);">enabled</a></tt></li>
+			<li><tt><a href="../adm/Item.html#font" onClick="return toggleMember('font', true);">font</a></tt></li>
+			<li><tt><a href="../adm/Item.html#known" onClick="return toggleMember('known', true);">known</a></tt></li>
+			<li><tt><a href="../adm/Item.html#margins" onClick="return toggleMember('margins', true);">margins</a></tt></li>
+			<li><tt><a href="../adm/Item.html#maximumSize" onClick="return toggleMember('maximumSize', true);">maximumSize</a></tt></li>
+			<li><tt><a href="../adm/Item.html#minimumSize" onClick="return toggleMember('minimumSize', true);">minimumSize</a></tt></li>
+			<li><tt><a href="../adm/Item.html#onDestroy" onClick="return toggleMember('onDestroy', true);">onDestroy</a></tt></li>
+			<li><tt><a href="../adm/Item.html#onDraw" onClick="return toggleMember('onDraw', true);">onDraw</a></tt></li>
+			<li><tt><a href="../adm/Item.html#onResize" onClick="return toggleMember('onResize', true);">onResize</a></tt></li>
+			<li><tt><a href="../adm/Item.html#onTrack" onClick="return toggleMember('onTrack', true);">onTrack</a></tt></li>
+			<li><tt><a href="../adm/Item.html#position" onClick="return toggleMember('position', true);">position</a></tt></li>
+			<li><tt><a href="../adm/Item.html#preferredSize" onClick="return toggleMember('preferredSize', true);">preferredSize</a></tt></li>
+			<li><tt><a href="../adm/Item.html#size" onClick="return toggleMember('size', true);">size</a></tt></li>
+			<li><tt><a href="../adm/Item.html#style" onClick="return toggleMember('style', true);">style</a></tt></li>
+			<li><tt><a href="../adm/Item.html#toolTip" onClick="return toggleMember('toolTip', true);">toolTip</a></tt></li>
+			<li><tt><a href="../adm/Item.html#toolTipEnabled" onClick="return toggleMember('toolTipEnabled', true);">toolTipEnabled</a></tt></li>
+			<li><tt><a href="../adm/Item.html#trackCallback" onClick="return toggleMember('trackCallback', true);">trackCallback</a></tt></li>
+			<li><tt><a href="../adm/Item.html#trackMask" onClick="return toggleMember('trackMask', true);">trackMask</a></tt></li>
+			<li><tt><a href="../adm/Item.html#visible" onClick="return toggleMember('visible', true);">visible</a></tt></li>
+			<li><tt><a href="../adm/Item.html#OPTION_NONE" onClick="return toggleMember('OPTION_NONE', true);">OPTION_NONE</a></tt></li>
+			<li><tt><a href="../adm/Item.html#destroy()" onClick="return toggleMember('destroy()', true);">destroy()</a></tt></li>
+			<li><tt><a href="../adm/Item.html#equals(java.lang.Object)" onClick="return toggleMember('equals(java.lang.Object)', true);">equals(obj)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#getTextSize(java.lang.String, int)" onClick="return toggleMember('getTextSize(java.lang.String, int)', true);">getTextSize(text, maxWidth)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#hideToolTip()" onClick="return toggleMember('hideToolTip()', true);">hideToolTip()</a></tt></li>
+			<li><tt><a href="../adm/Item.html#invalidate(int, int, int, int)" onClick="return toggleMember('invalidate(int, int, int, int)', true);">invalidate(x, y, width, height)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#invalidate(com.scriptographer.adm.Rectangle)" onClick="return toggleMember('invalidate(com.scriptographer.adm.Rectangle)', true);">invalidate(rt)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#localToScreen(int, int, int, int)" onClick="return toggleMember('localToScreen(int, int, int, int)', true);">localToScreen(x, y, width, height)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#localToScreen(com.scriptographer.adm.Rectangle)" onClick="return toggleMember('localToScreen(com.scriptographer.adm.Rectangle)', true);">localToScreen(rt)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#localToScreen(int, int)" onClick="return toggleMember('localToScreen(int, int)', true);">localToScreen(x, y)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#localToScreen(com.scriptographer.adm.Point)" onClick="return toggleMember('localToScreen(com.scriptographer.adm.Point)', true);">localToScreen(pt)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#screenToLocal(int, int)" onClick="return toggleMember('screenToLocal(int, int)', true);">screenToLocal(x, y)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#screenToLocal(com.scriptographer.adm.Point)" onClick="return toggleMember('screenToLocal(com.scriptographer.adm.Point)', true);">screenToLocal(pt)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#screenToLocal(int, int, int, int)" onClick="return toggleMember('screenToLocal(int, int, int, int)', true);">screenToLocal(x, y, width, height)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#screenToLocal(com.scriptographer.adm.Rectangle)" onClick="return toggleMember('screenToLocal(com.scriptographer.adm.Rectangle)', true);">screenToLocal(rt)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setBounds(int, int, int, int)" onClick="return toggleMember('setBounds(int, int, int, int)', true);">setBounds(x, y, width, height)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setBounds(int[])" onClick="return toggleMember('setBounds(int[])', true);">setBounds(bounds)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setMaximumSize(int, int)" onClick="return toggleMember('setMaximumSize(int, int)', true);">setMaximumSize(width, height)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setMaximumSize(com.scriptographer.adm.Point)" onClick="return toggleMember('setMaximumSize(com.scriptographer.adm.Point)', true);">setMaximumSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setMaximumSize(int[])" onClick="return toggleMember('setMaximumSize(int[])', true);">setMaximumSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setMinimumSize(int, int)" onClick="return toggleMember('setMinimumSize(int, int)', true);">setMinimumSize(width, height)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setMinimumSize(com.scriptographer.adm.Point)" onClick="return toggleMember('setMinimumSize(com.scriptographer.adm.Point)', true);">setMinimumSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setMinimumSize(int[])" onClick="return toggleMember('setMinimumSize(int[])', true);">setMinimumSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setPosition(int, int)" onClick="return toggleMember('setPosition(int, int)', true);">setPosition(x, y)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setPosition(int[])" onClick="return toggleMember('setPosition(int[])', true);">setPosition(point)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setPreferredSize(int, int)" onClick="return toggleMember('setPreferredSize(int, int)', true);">setPreferredSize(width, height)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setPreferredSize(com.scriptographer.adm.Point)" onClick="return toggleMember('setPreferredSize(com.scriptographer.adm.Point)', true);">setPreferredSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setSize(int, int)" onClick="return toggleMember('setSize(int, int)', true);">setSize(width, height)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setSize(com.scriptographer.adm.Point)" onClick="return toggleMember('setSize(com.scriptographer.adm.Point)', true);">setSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setSize(int[])" onClick="return toggleMember('setSize(int[])', true);">setSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#setWantsFocus(boolean)" onClick="return toggleMember('setWantsFocus(boolean)', true);">setWantsFocus(wantsFocus)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#showToolTip(int, int)" onClick="return toggleMember('showToolTip(int, int)', true);">showToolTip(x, y)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#showToolTip(com.scriptographer.adm.Point)" onClick="return toggleMember('showToolTip(com.scriptographer.adm.Point)', true);">showToolTip(pt)</a></tt></li>
+			<li><tt><a href="../adm/Item.html#update()" onClick="return toggleMember('update()', true);">update()</a></tt></li>
+			<li><tt><a href="../adm/Item.html#wantsFocus()" onClick="return toggleMember('wantsFocus()', true);">wantsFocus()</a></tt></li>
+			</ul>
+	</li>
+</ul>
+
+
+<p class="footer">Copyright &#169; 2001-2007 J&uuml;rg Lehni, <a href=http://www.scratchdisk.com target=_blank>Scratchdisk.com</a>. All Rights Reserved.</p>
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>ModalDialog</title>
+<base target="classFrame">
+<link rel="stylesheet" href="../../resources/style.css" type="text/css">
+<script src="../../resources/scripts.js" type="text/javascript"></script>
+</head>
+<body class="documentation">
+<h1>ModalDialog</h1>
+
+
+
+<p> <tt><a href="../adm/ModalDialog.html">ModalDialog</a></tt> extends <tt><i><a href="../adm/Dialog.html">Dialog</a></i></tt></p>
+
+
+
+<h2>Constructors</h2><div class="documentation-paragraph">
+<div id="ModalDialog(int)-link" class="member-link">
+<a name="ModalDialog(int)" href="#" onClick="return toggleMember('ModalDialog(int)', false);">
+<tt><b>ModalDialog</b>(options)</tt>
+</a>
+</div>
+<div id="ModalDialog(int)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ModalDialog(int)', false);"><tt><b>ModalDialog</b>(options)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ModalDialog(int)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Parameters:</b>	<div><tt>options: </tt><tt>Number</tt>	</div>
+</div></div>
+</div>
+
+</div>
+
+<h2>Properties</h2><div class="documentation-paragraph">
+<div id="OPTION_ALERT-link" class="member-link">
+<a name="OPTION_ALERT" href="#" onClick="return toggleMember('OPTION_ALERT', false);">
+<tt><b>OPTION_ALERT</b></tt>
+</a>
+</div>
+<div id="OPTION_ALERT-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('OPTION_ALERT', false);"><tt><b>OPTION_ALERT</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('OPTION_ALERT', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Modal Alert, cannot be combined with OPTION_RESIZING</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="OPTION_HAS_SYSTEM_CONTROLS-link" class="member-link">
+<a name="OPTION_HAS_SYSTEM_CONTROLS" href="#" onClick="return toggleMember('OPTION_HAS_SYSTEM_CONTROLS', false);">
+<tt><b>OPTION_HAS_SYSTEM_CONTROLS</b></tt>
+</a>
+</div>
+<div id="OPTION_HAS_SYSTEM_CONTROLS-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('OPTION_HAS_SYSTEM_CONTROLS', false);"><tt><b>OPTION_HAS_SYSTEM_CONTROLS</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('OPTION_HAS_SYSTEM_CONTROLS', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">0 by default. If set, ADM Modal dialogs on Windows will have a 
+ close box on the top right hand corner. Also there is a host
+ option that a user can use if all dialogs in the application
+ need that behavior.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="OPTION_PASS_MOUSEDOWN_EVENT-link" class="member-link">
+<a name="OPTION_PASS_MOUSEDOWN_EVENT" href="#" onClick="return toggleMember('OPTION_PASS_MOUSEDOWN_EVENT', false);">
+<tt><b>OPTION_PASS_MOUSEDOWN_EVENT</b></tt>
+</a>
+</div>
+<div id="OPTION_PASS_MOUSEDOWN_EVENT-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('OPTION_PASS_MOUSEDOWN_EVENT', false);"><tt><b>OPTION_PASS_MOUSEDOWN_EVENT</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('OPTION_PASS_MOUSEDOWN_EVENT', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">To allow modal dialogs pass mouse down events through to
+ the user dialog tracker on the application side.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="OPTION_RESIZING-link" class="member-link">
+<a name="OPTION_RESIZING" href="#" onClick="return toggleMember('OPTION_RESIZING', false);">
+<tt><b>OPTION_RESIZING</b></tt>
+</a>
+</div>
+<div id="OPTION_RESIZING-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('OPTION_RESIZING', false);"><tt><b>OPTION_RESIZING</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('OPTION_RESIZING', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="OPTION_SYSTEM_ALERT-link" class="member-link">
+<a name="OPTION_SYSTEM_ALERT" href="#" onClick="return toggleMember('OPTION_SYSTEM_ALERT', false);">
+<tt><b>OPTION_SYSTEM_ALERT</b></tt>
+</a>
+</div>
+<div id="OPTION_SYSTEM_ALERT-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('OPTION_SYSTEM_ALERT', false);"><tt><b>OPTION_SYSTEM_ALERT</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('OPTION_SYSTEM_ALERT', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Modal System Alert, cannot be combined with OPTION_RESIZING</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+</div>
+
+
+
+<h2>Functions</h2><div class="documentation-paragraph">
+<div id="doModal()-link" class="member-link">
+<a name="doModal()" href="#" onClick="return toggleMember('doModal()', false);">
+<tt><b>doModal</b>()</tt>
+</a>
+</div>
+<div id="doModal()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('doModal()', false);"><tt><b>doModal</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('doModal()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../adm/Item.html">Item</a></i></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="endModal()-link" class="member-link">
+<a name="endModal()" href="#" onClick="return toggleMember('endModal()', false);">
+<tt><b>endModal</b>()</tt>
+</a>
+</div>
+<div id="endModal()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('endModal()', false);"><tt><b>endModal</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('endModal()', false);"></div>
+<div class="clear"></div>
+</div>
+
+</div>
+
+</div>
+
+
+
+	<h2>Inheritance</h2>
+	<ul class="documentation-inherited">
+	<li><tt><i><a href="../adm/Dialog.html">Dialog</a></i></tt></li>
+	<li>
+		<ul>
+			<li><tt><a href="../adm/Dialog.html#active" onClick="return toggleMember('active', true);">active</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#bounds" onClick="return toggleMember('bounds', true);">bounds</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#cancelItem" onClick="return toggleMember('cancelItem', true);">cancelItem</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#collapsed" onClick="return toggleMember('collapsed', true);">collapsed</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#cursor" onClick="return toggleMember('cursor', true);">cursor</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#defaultItem" onClick="return toggleMember('defaultItem', true);">defaultItem</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#drawCallback" onClick="return toggleMember('drawCallback', true);">drawCallback</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#enabled" onClick="return toggleMember('enabled', true);">enabled</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#font" onClick="return toggleMember('font', true);">font</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#forcedOnScreen" onClick="return toggleMember('forcedOnScreen', true);">forcedOnScreen</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#groupInfo" onClick="return toggleMember('groupInfo', true);">groupInfo</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#increment" onClick="return toggleMember('increment', true);">increment</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#initialized" onClick="return toggleMember('initialized', true);">initialized</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onActivate" onClick="return toggleMember('onActivate', true);">onActivate</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onClose" onClick="return toggleMember('onClose', true);">onClose</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onCollapse" onClick="return toggleMember('onCollapse', true);">onCollapse</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onContextMenuChange" onClick="return toggleMember('onContextMenuChange', true);">onContextMenuChange</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onCycle" onClick="return toggleMember('onCycle', true);">onCycle</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onDeactivate" onClick="return toggleMember('onDeactivate', true);">onDeactivate</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onDestroy" onClick="return toggleMember('onDestroy', true);">onDestroy</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onDraw" onClick="return toggleMember('onDraw', true);">onDraw</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onExpand" onClick="return toggleMember('onExpand', true);">onExpand</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onHide" onClick="return toggleMember('onHide', true);">onHide</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onInitialize" onClick="return toggleMember('onInitialize', true);">onInitialize</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onMove" onClick="return toggleMember('onMove', true);">onMove</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onResize" onClick="return toggleMember('onResize', true);">onResize</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onShow" onClick="return toggleMember('onShow', true);">onShow</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onTrack" onClick="return toggleMember('onTrack', true);">onTrack</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#onZoom" onClick="return toggleMember('onZoom', true);">onZoom</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#paletteLayoutBounds" onClick="return toggleMember('paletteLayoutBounds', true);">paletteLayoutBounds</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#popupMenu" onClick="return toggleMember('popupMenu', true);">popupMenu</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#position" onClick="return toggleMember('position', true);">position</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#preferredSize" onClick="return toggleMember('preferredSize', true);">preferredSize</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#resizeButton" onClick="return toggleMember('resizeButton', true);">resizeButton</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#size" onClick="return toggleMember('size', true);">size</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#title" onClick="return toggleMember('title', true);">title</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#trackCallback" onClick="return toggleMember('trackCallback', true);">trackCallback</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#trackMask" onClick="return toggleMember('trackMask', true);">trackMask</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#updateEnabled" onClick="return toggleMember('updateEnabled', true);">updateEnabled</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#visible" onClick="return toggleMember('visible', true);">visible</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#CURSOR_ARROW" onClick="return toggleMember('CURSOR_ARROW', true);">CURSOR_ARROW</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#CURSOR_CANCEL" onClick="return toggleMember('CURSOR_CANCEL', true);">CURSOR_CANCEL</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#CURSOR_CROSS" onClick="return toggleMember('CURSOR_CROSS', true);">CURSOR_CROSS</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#CURSOR_FINGER" onClick="return toggleMember('CURSOR_FINGER', true);">CURSOR_FINGER</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#CURSOR_FIST" onClick="return toggleMember('CURSOR_FIST', true);">CURSOR_FIST</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#CURSOR_FISTPLUS" onClick="return toggleMember('CURSOR_FISTPLUS', true);">CURSOR_FISTPLUS</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#CURSOR_HOSTCONTROLS" onClick="return toggleMember('CURSOR_HOSTCONTROLS', true);">CURSOR_HOSTCONTROLS</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#CURSOR_IBEAM" onClick="return toggleMember('CURSOR_IBEAM', true);">CURSOR_IBEAM</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#CURSOR_WAIT" onClick="return toggleMember('CURSOR_WAIT', true);">CURSOR_WAIT</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_BOLD_DIALOG" onClick="return toggleMember('FONT_BOLD_DIALOG', true);">FONT_BOLD_DIALOG</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_BOLD_FIXEDWIDTH" onClick="return toggleMember('FONT_BOLD_FIXEDWIDTH', true);">FONT_BOLD_FIXEDWIDTH</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_BOLD_ITALIC_DIALOG" onClick="return toggleMember('FONT_BOLD_ITALIC_DIALOG', true);">FONT_BOLD_ITALIC_DIALOG</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_BOLD_ITALIC_FIXEDWIDTH" onClick="return toggleMember('FONT_BOLD_ITALIC_FIXEDWIDTH', true);">FONT_BOLD_ITALIC_FIXEDWIDTH</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_BOLD_ITALIC_PALETTE" onClick="return toggleMember('FONT_BOLD_ITALIC_PALETTE', true);">FONT_BOLD_ITALIC_PALETTE</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_BOLD_PALETTE" onClick="return toggleMember('FONT_BOLD_PALETTE', true);">FONT_BOLD_PALETTE</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_DEFAULT" onClick="return toggleMember('FONT_DEFAULT', true);">FONT_DEFAULT</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_DIALOG" onClick="return toggleMember('FONT_DIALOG', true);">FONT_DIALOG</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_FIXEDWIDTH" onClick="return toggleMember('FONT_FIXEDWIDTH', true);">FONT_FIXEDWIDTH</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_ITALIC_DIALOG" onClick="return toggleMember('FONT_ITALIC_DIALOG', true);">FONT_ITALIC_DIALOG</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_ITALIC_FIXEDWIDTH" onClick="return toggleMember('FONT_ITALIC_FIXEDWIDTH', true);">FONT_ITALIC_FIXEDWIDTH</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_ITALIC_PALETTE" onClick="return toggleMember('FONT_ITALIC_PALETTE', true);">FONT_ITALIC_PALETTE</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#FONT_PALETTE" onClick="return toggleMember('FONT_PALETTE', true);">FONT_PALETTE</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#OPTION_ENTER_BEFORE_OK" onClick="return toggleMember('OPTION_ENTER_BEFORE_OK', true);">OPTION_ENTER_BEFORE_OK</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#OPTION_FORCE_ROMAN" onClick="return toggleMember('OPTION_FORCE_ROMAN', true);">OPTION_FORCE_ROMAN</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#OPTION_HIDDEN" onClick="return toggleMember('OPTION_HIDDEN', true);">OPTION_HIDDEN</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#OPTION_IGNORE_KEYPAD_ENTER" onClick="return toggleMember('OPTION_IGNORE_KEYPAD_ENTER', true);">OPTION_IGNORE_KEYPAD_ENTER</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#OPTION_ITEMS_HIDDEN" onClick="return toggleMember('OPTION_ITEMS_HIDDEN', true);">OPTION_ITEMS_HIDDEN</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#OPTION_NONE" onClick="return toggleMember('OPTION_NONE', true);">OPTION_NONE</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#OPTION_REMEMBER_PLACING" onClick="return toggleMember('OPTION_REMEMBER_PLACING', true);">OPTION_REMEMBER_PLACING</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#addToContent(com.scriptographer.adm.Item, java.lang.Object)" onClick="return toggleMember('addToContent(com.scriptographer.adm.Item, java.lang.Object)', true);">addToContent(item[, constraints])</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#addToContent(com.scriptographer.adm.ItemContainer, java.lang.Object)" onClick="return toggleMember('addToContent(com.scriptographer.adm.ItemContainer, java.lang.Object)', true);">addToContent(layout[, constraints])</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#alert(java.lang.String)" onClick="return toggleMember('alert(java.lang.String)', true);">alert(message)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#chooseColor(com.scriptographer.adm.Point, java.awt.Color)" onClick="return toggleMember('chooseColor(com.scriptographer.adm.Point, java.awt.Color)', true);">chooseColor(where, color)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#chooseColor(java.awt.Color)" onClick="return toggleMember('chooseColor(java.awt.Color)', true);">chooseColor(color)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#chooseDirectory(java.lang.String, java.io.File)" onClick="return toggleMember('chooseDirectory(java.lang.String, java.io.File)', true);">chooseDirectory(message[, selectedDir])</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#confirm(java.lang.String)" onClick="return toggleMember('confirm(java.lang.String)', true);">confirm(message)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#createPlatformControl()" onClick="return toggleMember('createPlatformControl()', true);">createPlatformControl()</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#destroy()" onClick="return toggleMember('destroy()', true);">destroy()</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#doLayout()" onClick="return toggleMember('doLayout()', true);">doLayout()</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#dumpControlHierarchy(java.io.File)" onClick="return toggleMember('dumpControlHierarchy(java.io.File)', true);">dumpControlHierarchy(file)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#equals(java.lang.Object)" onClick="return toggleMember('equals(java.lang.Object)', true);">equals(obj)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#fileOpen(java.lang.String, java.lang.String[], java.io.File)" onClick="return toggleMember('fileOpen(java.lang.String, java.lang.String[], java.io.File)', true);">fileOpen(message[, filters[, selectedFile]])</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#fileSave(java.lang.String, java.lang.String[], java.io.File)" onClick="return toggleMember('fileSave(java.lang.String, java.lang.String[], java.io.File)', true);">fileSave(message[, filters[, selectedFile]])</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#invalidate(int, int, int, int)" onClick="return toggleMember('invalidate(int, int, int, int)', true);">invalidate(x, y, width, height)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#invalidate(com.scriptographer.adm.Rectangle)" onClick="return toggleMember('invalidate(com.scriptographer.adm.Rectangle)', true);">invalidate(rt)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#loadPreferences(java.lang.String)" onClick="return toggleMember('loadPreferences(java.lang.String)', true);">loadPreferences(name)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#localToScreen(int, int, int, int)" onClick="return toggleMember('localToScreen(int, int, int, int)', true);">localToScreen(x, y, width, height)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#localToScreen(com.scriptographer.adm.Rectangle)" onClick="return toggleMember('localToScreen(com.scriptographer.adm.Rectangle)', true);">localToScreen(rt)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#localToScreen(int, int)" onClick="return toggleMember('localToScreen(int, int)', true);">localToScreen(x, y)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#localToScreen(com.scriptographer.adm.Point)" onClick="return toggleMember('localToScreen(com.scriptographer.adm.Point)', true);">localToScreen(pt)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#nativeSetActive(boolean)" onClick="return toggleMember('nativeSetActive(boolean)', true);">nativeSetActive(active)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#prompt(java.lang.String, com.scriptographer.adm.PromptItem[])" onClick="return toggleMember('prompt(java.lang.String, com.scriptographer.adm.PromptItem[])', true);">prompt(title, items)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#removeItem(com.scriptographer.adm.Item)" onClick="return toggleMember('removeItem(com.scriptographer.adm.Item)', true);">removeItem(item)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#savePreferences(java.lang.String)" onClick="return toggleMember('savePreferences(java.lang.String)', true);">savePreferences(name)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#screenToLocal(int, int, int, int)" onClick="return toggleMember('screenToLocal(int, int, int, int)', true);">screenToLocal(x, y, width, height)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#screenToLocal(com.scriptographer.adm.Rectangle)" onClick="return toggleMember('screenToLocal(com.scriptographer.adm.Rectangle)', true);">screenToLocal(rt)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#screenToLocal(int, int)" onClick="return toggleMember('screenToLocal(int, int)', true);">screenToLocal(x, y)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#screenToLocal(com.scriptographer.adm.Point)" onClick="return toggleMember('screenToLocal(com.scriptographer.adm.Point)', true);">screenToLocal(pt)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setBounds(int, int, int, int)" onClick="return toggleMember('setBounds(int, int, int, int)', true);">setBounds(x, y, width, height)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setBounds(int[])" onClick="return toggleMember('setBounds(int[])', true);">setBounds(bounds)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setContent(java.util.Map)" onClick="return toggleMember('setContent(java.util.Map)', true);">setContent(items)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setGroupInfo(java.lang.String, int)" onClick="return toggleMember('setGroupInfo(java.lang.String, int)', true);">setGroupInfo(group, positionCode)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setIncrement(int, int)" onClick="return toggleMember('setIncrement(int, int)', true);">setIncrement(hor, ver)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setIncrement(com.scriptographer.adm.Point)" onClick="return toggleMember('setIncrement(com.scriptographer.adm.Point)', true);">setIncrement(increment)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setLayout(java.awt.LayoutManager)" onClick="return toggleMember('setLayout(java.awt.LayoutManager)', true);">setLayout(mgr)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setMargins(int, int, int, int)" onClick="return toggleMember('setMargins(int, int, int, int)', true);">setMargins(margins[, top, right, bottom])</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setMargins(int[])" onClick="return toggleMember('setMargins(int[])', true);">setMargins(margins)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setMaximumSize(int, int)" onClick="return toggleMember('setMaximumSize(int, int)', true);">setMaximumSize(width, height)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setMaximumSize(com.scriptographer.adm.Size)" onClick="return toggleMember('setMaximumSize(com.scriptographer.adm.Size)', true);">setMaximumSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setMaximumSize(com.scriptographer.adm.Point)" onClick="return toggleMember('setMaximumSize(com.scriptographer.adm.Point)', true);">setMaximumSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setMaximumSize(int[])" onClick="return toggleMember('setMaximumSize(int[])', true);">setMaximumSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setMinimumSize(int, int)" onClick="return toggleMember('setMinimumSize(int, int)', true);">setMinimumSize(width, height)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setMinimumSize(com.scriptographer.adm.Size)" onClick="return toggleMember('setMinimumSize(com.scriptographer.adm.Size)', true);">setMinimumSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setMinimumSize(com.scriptographer.adm.Point)" onClick="return toggleMember('setMinimumSize(com.scriptographer.adm.Point)', true);">setMinimumSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setMinimumSize(int[])" onClick="return toggleMember('setMinimumSize(int[])', true);">setMinimumSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setPosition(int, int)" onClick="return toggleMember('setPosition(int, int)', true);">setPosition(x, y)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setPosition(int[])" onClick="return toggleMember('setPosition(int[])', true);">setPosition(point)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setSize(int, int)" onClick="return toggleMember('setSize(int, int)', true);">setSize(width, height)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setSize(com.scriptographer.adm.Point)" onClick="return toggleMember('setSize(com.scriptographer.adm.Point)', true);">setSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#setSize(int[])" onClick="return toggleMember('setSize(int[])', true);">setSize(size)</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#test()" onClick="return toggleMember('test()', true);">test()</a></tt></li>
+			<li><tt><a href="../adm/Dialog.html#update()" onClick="return toggleMember('update()', true);">update()</a></tt></li>
+			</ul>
+	</li>
+</ul>
+
+
+<p class="footer">Copyright &#169; 2001-2007 J&uuml;rg Lehni, <a href=http://www.scratchdisk.com target=_blank>Scratchdisk.com</a>. All Rights Reserved.</p>
+</body>
+</html>

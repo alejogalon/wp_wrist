@@ -1,0 +1,127 @@
+.col-color {
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.color-box {
+  width: 31px;
+  height: 31px;
+  border: 1px solid #040404;
+}
+.color-transparent {
+  background-color: #f5f8fb;
+  position: relative;
+  border: 1px solid #d5d9dd;
+
+  &:before {
+    content: '';
+    background-image: url('../images/pin-icon.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    .translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+.color-check {
+  &:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    .translate(-50%, -50%);
+    color: @white;
+    background-color: @black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    padding-left: 4px;
+    line-height: initial;
+    padding-top: 4px;
+  }
+}
+
+.color-view {
+  width: 12px;
+  height: 12px;
+  margin: auto;
+}
+.color-black {
+  background-color: @black;
+}
+.color-white {
+  background-color: @white;
+}
+.color-red {
+  background-color: #e0312c;
+}
+.color-orange {
+  background-color: #ffa600;
+}
+.color-yellow {
+  background-color: #eef000;
+}
+.color-lawngreen {
+  background-color: #24cf20;
+}
+.color-darkgreen {
+  background-color: #008100;
+}
+.color-seagreen {
+  background-color: #008081;
+}
+.color-lightblue {
+  background-color: #acd8e7;
+}
+.color-blue {
+  background-color: #1672c1;
+}
+.color-mediumblue {
+  background-color: #0000e4;
+}
+.color-violet {
+  background-color: #56108d;
+}
+.color-purple {
+  background-color: #b475d5;
+}
+.color-peach {
+  background-color: #dfb883;
+}
+.color-brown {
+  background-color: #845c38;
+}
+.color-pink {
+  background-color: #ff66b5;
+}
+.color-darkgray {
+  background-color: #808080;
+}
+.color-maroon {
+  background-color: #820000;
+}
+.color-darkyellow {
+  background-color: #ffd900;
+}
+.color-gray {
+  background-color: #c0c0c0;
+}
+.color-lightpurple {
+  background-color: #a200f4;
+}
+.color-darkblue {
+  background-color: #00008d;
+}
+.color-green {
+  background-color: #006500;
+}
+.color-lightpink {
+  background-color: #ffc0cb;
+}

@@ -1,0 +1,632 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>TextFrame</title>
+<base target="classFrame">
+<link rel="stylesheet" href="../../resources/style.css" type="text/css">
+<script src="../../resources/scripts.js" type="text/javascript"></script>
+</head>
+<body class="documentation">
+<h1>TextFrame</h1>
+
+
+
+<p> <tt><i><a href="../ai/TextFrame.html">TextFrame</a></i></tt> extends <tt><i><a href="../ai/Art.html">Art</a></i></tt></p>
+
+
+
+
+
+<h2>Properties</h2><div class="documentation-paragraph">
+<div id="characterStyle-link" class="member-link">
+<a name="characterStyle" href="#" onClick="return toggleMember('characterStyle', false);">
+<tt><b>characterStyle</b></tt>
+</a>
+</div>
+<div id="characterStyle-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('characterStyle', false);"><tt><b>characterStyle</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('characterStyle', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">The character style of the text frame.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/CharacterStyle.html">CharacterStyle</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="content-link" class="member-link">
+<a name="content" href="#" onClick="return toggleMember('content', false);">
+<tt><b>content</b></tt>
+</a>
+</div>
+<div id="content-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('content', false);"><tt><b>content</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('content', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">The text contents of the text frame.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>String</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="end-link" class="member-link">
+<a name="end" href="#" onClick="return toggleMember('end', false);">
+<tt><b>end</b></tt>
+</a>
+</div>
+<div id="end-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('end', false);"><tt><b>end</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('end', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the index of the last visible character of the text frame.(this is the equivalent of calling TextFrame.visibleRange.end)</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="index-link" class="member-link">
+<a name="index" href="#" onClick="return toggleMember('index', false);">
+<tt><b>index</b></tt>
+</a>
+</div>
+<div id="index-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('index', false);"><tt><b>index</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('index', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the index of this text frame in the story's list of text frames.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="linked-link" class="member-link">
+<a name="linked" href="#" onClick="return toggleMember('linked', false);">
+<tt><b>linked</b></tt>
+</a>
+</div>
+<div id="linked-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('linked', false);"><tt><b>linked</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('linked', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns <tt>true</tt> if the text frame is
+         linked, false otherwise.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="nextFrame-link" class="member-link">
+<a name="nextFrame" href="#" onClick="return toggleMember('nextFrame', false);">
+<tt><b>nextFrame</b></tt>
+</a>
+</div>
+<div id="nextFrame-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('nextFrame', false);"><tt><b>nextFrame</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('nextFrame', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the next text frame in a story of various linked text frames</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/TextFrame.html">TextFrame</a></i></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="opticalAlignment-link" class="member-link">
+<a name="opticalAlignment" href="#" onClick="return toggleMember('opticalAlignment', false);">
+<tt><b>opticalAlignment</b></tt>
+</a>
+</div>
+<div id="opticalAlignment-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('opticalAlignment', false);"><tt><b>opticalAlignment</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('opticalAlignment', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Specifies wether to use optical alignment within the text frame.<br />
+         Optical aligment hangs punctuation outside the edges of a text
+         frame.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="orientation-link" class="member-link">
+<a name="orientation" href="#" onClick="return toggleMember('orientation', false);">
+<tt><b>orientation</b></tt>
+</a>
+</div>
+<div id="orientation-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('orientation', false);"><tt><b>orientation</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('orientation', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">The orientation of the text in the text frame asspecified by the TextFrame.ORIENTATION_* static properties.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="paragraphStyle-link" class="member-link">
+<a name="paragraphStyle" href="#" onClick="return toggleMember('paragraphStyle', false);">
+<tt><b>paragraphStyle</b></tt>
+</a>
+</div>
+<div id="paragraphStyle-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('paragraphStyle', false);"><tt><b>paragraphStyle</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('paragraphStyle', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">The paragraph style of the text frame.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/ParagraphStyle.html">ParagraphStyle</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="previousFrame-link" class="member-link">
+<a name="previousFrame" href="#" onClick="return toggleMember('previousFrame', false);">
+<tt><b>previousFrame</b></tt>
+</a>
+</div>
+<div id="previousFrame-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('previousFrame', false);"><tt><b>previousFrame</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('previousFrame', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the previous text frame in a story of various linked text frames</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/TextFrame.html">TextFrame</a></i></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="range-link" class="member-link">
+<a name="range" href="#" onClick="return toggleMember('range', false);">
+<tt><b>range</b></tt>
+</a>
+</div>
+<div id="range-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('range', false);"><tt><b>range</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('range', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns a text range for all the characters, even the invisible ones outsidethe container.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/TextRange.html">TextRange</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="selection-link" class="member-link">
+<a name="selection" href="#" onClick="return toggleMember('selection', false);">
+<tt><b>selection</b></tt>
+</a>
+</div>
+<div id="selection-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('selection', false);"><tt><b>selection</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('selection', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the selected text of the text frame as a text range</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/TextRange.html">TextRange</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="spacing-link" class="member-link">
+<a name="spacing" href="#" onClick="return toggleMember('spacing', false);">
+<tt><b>spacing</b></tt>
+</a>
+</div>
+<div id="spacing-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('spacing', false);"><tt><b>spacing</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('spacing', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">The line spacing value for the text frame in points.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="start-link" class="member-link">
+<a name="start" href="#" onClick="return toggleMember('start', false);">
+<tt><b>start</b></tt>
+</a>
+</div>
+<div id="start-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('start', false);"><tt><b>start</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('start', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the index of the first visible character of the text frame.(this is the equivalent of calling TextFrame.visibleRange.start)</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="story-link" class="member-link">
+<a name="story" href="#" onClick="return toggleMember('story', false);">
+<tt><b>story</b></tt>
+</a>
+</div>
+<div id="story-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('story', false);"><tt><b>story</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('story', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.Returns the Story that the text frame belongs to.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/TextStory.html">TextStory</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="visibleRange-link" class="member-link">
+<a name="visibleRange" href="#" onClick="return toggleMember('visibleRange', false);">
+<tt><b>visibleRange</b></tt>
+</a>
+</div>
+<div id="visibleRange-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('visibleRange', false);"><tt><b>visibleRange</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('visibleRange', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Read-only.In case there's an overflow in the text, this only returns a rangeover the visible characters, while getRange() returns one over thewhole text.</div>
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><a href="../ai/TextRange.html">TextRange</a></tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ORIENTATION_HORIZONTAL-link" class="member-link">
+<a name="ORIENTATION_HORIZONTAL" href="#" onClick="return toggleMember('ORIENTATION_HORIZONTAL', false);">
+<tt><b>ORIENTATION_HORIZONTAL</b></tt>
+</a>
+</div>
+<div id="ORIENTATION_HORIZONTAL-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ORIENTATION_HORIZONTAL', false);"><tt><b>ORIENTATION_HORIZONTAL</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ORIENTATION_HORIZONTAL', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+
+<div id="ORIENTATION_VERTICAL-link" class="member-link">
+<a name="ORIENTATION_VERTICAL" href="#" onClick="return toggleMember('ORIENTATION_VERTICAL', false);">
+<tt><b>ORIENTATION_VERTICAL</b></tt>
+</a>
+</div>
+<div id="ORIENTATION_VERTICAL-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('ORIENTATION_VERTICAL', false);"><tt><b>ORIENTATION_VERTICAL</b></tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('ORIENTATION_VERTICAL', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Number</tt>
+</div> 
+</div></div>
+</div>
+
+</div>
+
+
+
+<h2>Functions</h2><div class="documentation-paragraph">
+<div id="createOutline()-link" class="member-link">
+<a name="createOutline()" href="#" onClick="return toggleMember('createOutline()', false);">
+<tt><b>createOutline</b>()</tt>
+</a>
+</div>
+<div id="createOutline()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('createOutline()', false);"><tt><b>createOutline</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('createOutline()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Converts the text in the text frame to outlines. Unlike the Illustrator
+ 'Create Outlines' action, this won't remove the text frame.</div>
+
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt><i><a href="../ai/Art.html">Art</a></i></tt>
+ - An Art item containing the outlined text.</div> 
+</div></div>
+</div>
+
+
+<div id="link(com.scriptographer.ai.TextFrame)-link" class="member-link">
+<a name="link(com.scriptographer.ai.TextFrame)" href="#" onClick="return toggleMember('link(com.scriptographer.ai.TextFrame)', false);">
+<tt><b>link</b>(next)</tt>
+</a>
+</div>
+<div id="link(com.scriptographer.ai.TextFrame)-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('link(com.scriptographer.ai.TextFrame)', false);"><tt><b>link</b>(next)</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('link(com.scriptographer.ai.TextFrame)', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Links the supplied text frame to this one.</div>
+<div class="member-paragraph"><b>Parameters:</b>	<div><tt>next: </tt><tt><i><a href="../ai/TextFrame.html">TextFrame</a></i></tt> - The text frame that will be linked.
+	</div>
+</div>
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - True if the text frame was linked, false otherwise</div> 
+</div></div>
+</div>
+
+
+<div id="unlink()-link" class="member-link">
+<a name="unlink()" href="#" onClick="return toggleMember('unlink()', false);">
+<tt><b>unlink</b>()</tt>
+</a>
+</div>
+<div id="unlink()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('unlink()', false);"><tt><b>unlink</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('unlink()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Unlinks the text frame from its current story.</div>
+
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - True if the operation was successful, false otherwise</div> 
+</div></div>
+</div>
+
+
+<div id="unlinkAfter()-link" class="member-link">
+<a name="unlinkAfter()" href="#" onClick="return toggleMember('unlinkAfter()', false);">
+<tt><b>unlinkAfter</b>()</tt>
+</a>
+</div>
+<div id="unlinkAfter()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('unlinkAfter()', false);"><tt><b>unlinkAfter</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('unlinkAfter()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Unlinks the text frame from its current story and breaks up the story
+ into two parts after the text frame.</div>
+
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - True if the operation as successful, false otherwise</div> 
+</div></div>
+</div>
+
+
+<div id="unlinkBefore()-link" class="member-link">
+<a name="unlinkBefore()" href="#" onClick="return toggleMember('unlinkBefore()', false);">
+<tt><b>unlinkBefore</b>()</tt>
+</a>
+</div>
+<div id="unlinkBefore()-description" class="member-description">
+<div class="member-header">
+<div class="member-title"><a href="#" onClick="return toggleMember('unlinkBefore()', false);"><tt><b>unlinkBefore</b>()</tt></a></div>
+<div class="member-close"><input type="button" value="Close" onClick="toggleMember('unlinkBefore()', false);"></div>
+<div class="clear"></div>
+</div>
+<div class="member-text"><div class="member-paragraph">Unlinks the text frame from its current story and breaks up the story
+ into two parts before the text frame.</div>
+
+
+
+<div class="member-paragraph"><b>Returns:</b>
+<div> 
+<tt>Boolean</tt>
+ - True if the operation as successful, false otherwise</div> 
+</div></div>
+</div>
+
+</div>
+
+
+
+	<h2>Inheritance</h2>
+	<ul class="documentation-inherited">
+	<li><tt><i><a href="../ai/Art.html">Art</a></i></tt></li>
+	<li>
+		<ul>
+			<li><tt><a href="../ai/Art.html#alphaIsShape" onClick="return toggleMember('alphaIsShape', true);">alphaIsShape</a></tt></li>
+			<li><tt><a href="../ai/Art.html#blendMode" onClick="return toggleMember('blendMode', true);">blendMode</a></tt></li>
+			<li><tt><a href="../ai/Art.html#bounds" onClick="return toggleMember('bounds', true);">bounds</a></tt></li>
+			<li><tt><a href="../ai/Art.html#centerVisible" onClick="return toggleMember('centerVisible', true);">centerVisible</a></tt></li>
+			<li><tt><a href="../ai/Art.html#children" onClick="return toggleMember('children', true);">children</a></tt></li>
+			<li><tt><a href="../ai/Art.html#clipMask" onClick="return toggleMember('clipMask', true);">clipMask</a></tt></li>
+			<li><tt><a href="../ai/Art.html#controlBounds" onClick="return toggleMember('controlBounds', true);">controlBounds</a></tt></li>
+			<li><tt><a href="../ai/Art.html#dictionary" onClick="return toggleMember('dictionary', true);">dictionary</a></tt></li>
+			<li><tt><a href="../ai/Art.html#document" onClick="return toggleMember('document', true);">document</a></tt></li>
+			<li><tt><a href="../ai/Art.html#editable" onClick="return toggleMember('editable', true);">editable</a></tt></li>
+			<li><tt><a href="../ai/Art.html#firstChild" onClick="return toggleMember('firstChild', true);">firstChild</a></tt></li>
+			<li><tt><a href="../ai/Art.html#fullySelected" onClick="return toggleMember('fullySelected', true);">fullySelected</a></tt></li>
+			<li><tt><a href="../ai/Art.html#geometricBounds" onClick="return toggleMember('geometricBounds', true);">geometricBounds</a></tt></li>
+			<li><tt><a href="../ai/Art.html#hidden" onClick="return toggleMember('hidden', true);">hidden</a></tt></li>
+			<li><tt><a href="../ai/Art.html#isolated" onClick="return toggleMember('isolated', true);">isolated</a></tt></li>
+			<li><tt><a href="../ai/Art.html#knockout" onClick="return toggleMember('knockout', true);">knockout</a></tt></li>
+			<li><tt><a href="../ai/Art.html#knockoutInherited" onClick="return toggleMember('knockoutInherited', true);">knockoutInherited</a></tt></li>
+			<li><tt><a href="../ai/Art.html#lastChild" onClick="return toggleMember('lastChild', true);">lastChild</a></tt></li>
+			<li><tt><a href="../ai/Art.html#locked" onClick="return toggleMember('locked', true);">locked</a></tt></li>
+			<li><tt><a href="../ai/Art.html#name" onClick="return toggleMember('name', true);">name</a></tt></li>
+			<li><tt><a href="../ai/Art.html#nextSibling" onClick="return toggleMember('nextSibling', true);">nextSibling</a></tt></li>
+			<li><tt><a href="../ai/Art.html#opacity" onClick="return toggleMember('opacity', true);">opacity</a></tt></li>
+			<li><tt><a href="../ai/Art.html#parent" onClick="return toggleMember('parent', true);">parent</a></tt></li>
+			<li><tt><a href="../ai/Art.html#previousSibling" onClick="return toggleMember('previousSibling', true);">previousSibling</a></tt></li>
+			<li><tt><a href="../ai/Art.html#selected" onClick="return toggleMember('selected', true);">selected</a></tt></li>
+			<li><tt><a href="../ai/Art.html#style" onClick="return toggleMember('style', true);">style</a></tt></li>
+			<li><tt><a href="../ai/Art.html#valid" onClick="return toggleMember('valid', true);">valid</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_EXPANDED" onClick="return toggleMember('ATTR_EXPANDED', true);">ATTR_EXPANDED</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_FULLY_SELECTED" onClick="return toggleMember('ATTR_FULLY_SELECTED', true);">ATTR_FULLY_SELECTED</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_HAS_ACTIVE_STYLE" onClick="return toggleMember('ATTR_HAS_ACTIVE_STYLE', true);">ATTR_HAS_ACTIVE_STYLE</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_HAS_SIMPLE_STYLE" onClick="return toggleMember('ATTR_HAS_SIMPLE_STYLE', true);">ATTR_HAS_SIMPLE_STYLE</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_HIDDEN" onClick="return toggleMember('ATTR_HIDDEN', true);">ATTR_HIDDEN</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_IS_CLIPMASK" onClick="return toggleMember('ATTR_IS_CLIPMASK', true);">ATTR_IS_CLIPMASK</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_IS_TEXTWRAP" onClick="return toggleMember('ATTR_IS_TEXTWRAP', true);">ATTR_IS_TEXTWRAP</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_LOCKED" onClick="return toggleMember('ATTR_LOCKED', true);">ATTR_LOCKED</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_PART_OF_COMPOUND" onClick="return toggleMember('ATTR_PART_OF_COMPOUND', true);">ATTR_PART_OF_COMPOUND</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_SELECTED" onClick="return toggleMember('ATTR_SELECTED', true);">ATTR_SELECTED</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_SELECTED_LAYERS" onClick="return toggleMember('ATTR_SELECTED_LAYERS', true);">ATTR_SELECTED_LAYERS</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_SELECTED_TOPLEVEL_GROUPS" onClick="return toggleMember('ATTR_SELECTED_TOPLEVEL_GROUPS', true);">ATTR_SELECTED_TOPLEVEL_GROUPS</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_SELECTED_TOPLEVEL_WITH_PAINT" onClick="return toggleMember('ATTR_SELECTED_TOPLEVEL_WITH_PAINT', true);">ATTR_SELECTED_TOPLEVEL_WITH_PAINT</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_STYLE_IS_DIRTY" onClick="return toggleMember('ATTR_STYLE_IS_DIRTY', true);">ATTR_STYLE_IS_DIRTY</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ATTR_TARGETED" onClick="return toggleMember('ATTR_TARGETED', true);">ATTR_TARGETED</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_COLOR" onClick="return toggleMember('BLEND_COLOR', true);">BLEND_COLOR</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_COLORBURN" onClick="return toggleMember('BLEND_COLORBURN', true);">BLEND_COLORBURN</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_COLORDODGE" onClick="return toggleMember('BLEND_COLORDODGE', true);">BLEND_COLORDODGE</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_DARKEN" onClick="return toggleMember('BLEND_DARKEN', true);">BLEND_DARKEN</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_DIFFERENCE" onClick="return toggleMember('BLEND_DIFFERENCE', true);">BLEND_DIFFERENCE</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_EXCLUSION" onClick="return toggleMember('BLEND_EXCLUSION', true);">BLEND_EXCLUSION</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_HARDLIGHT" onClick="return toggleMember('BLEND_HARDLIGHT', true);">BLEND_HARDLIGHT</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_HUE" onClick="return toggleMember('BLEND_HUE', true);">BLEND_HUE</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_LIGHTEN" onClick="return toggleMember('BLEND_LIGHTEN', true);">BLEND_LIGHTEN</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_LUMINOSITY" onClick="return toggleMember('BLEND_LUMINOSITY', true);">BLEND_LUMINOSITY</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_MULTIPLY" onClick="return toggleMember('BLEND_MULTIPLY', true);">BLEND_MULTIPLY</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_NORMAL" onClick="return toggleMember('BLEND_NORMAL', true);">BLEND_NORMAL</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_NUMS" onClick="return toggleMember('BLEND_NUMS', true);">BLEND_NUMS</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_OVERLAY" onClick="return toggleMember('BLEND_OVERLAY', true);">BLEND_OVERLAY</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_SATURATION" onClick="return toggleMember('BLEND_SATURATION', true);">BLEND_SATURATION</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_SCREEN" onClick="return toggleMember('BLEND_SCREEN', true);">BLEND_SCREEN</a></tt></li>
+			<li><tt><a href="../ai/Art.html#BLEND_SOFTLIGHT" onClick="return toggleMember('BLEND_SOFTLIGHT', true);">BLEND_SOFTLIGHT</a></tt></li>
+			<li><tt><a href="../ai/Art.html#EXPAND_GRADIENTTOMESH" onClick="return toggleMember('EXPAND_GRADIENTTOMESH', true);">EXPAND_GRADIENTTOMESH</a></tt></li>
+			<li><tt><a href="../ai/Art.html#EXPAND_GRADIENTTOPATHS" onClick="return toggleMember('EXPAND_GRADIENTTOPATHS', true);">EXPAND_GRADIENTTOPATHS</a></tt></li>
+			<li><tt><a href="../ai/Art.html#EXPAND_LOCKEDOBJECTS" onClick="return toggleMember('EXPAND_LOCKEDOBJECTS', true);">EXPAND_LOCKEDOBJECTS</a></tt></li>
+			<li><tt><a href="../ai/Art.html#EXPAND_ONEATATIME" onClick="return toggleMember('EXPAND_ONEATATIME', true);">EXPAND_ONEATATIME</a></tt></li>
+			<li><tt><a href="../ai/Art.html#EXPAND_PATTERN" onClick="return toggleMember('EXPAND_PATTERN', true);">EXPAND_PATTERN</a></tt></li>
+			<li><tt><a href="../ai/Art.html#EXPAND_PLUGINART" onClick="return toggleMember('EXPAND_PLUGINART', true);">EXPAND_PLUGINART</a></tt></li>
+			<li><tt><a href="../ai/Art.html#EXPAND_SHOWPROGRESS" onClick="return toggleMember('EXPAND_SHOWPROGRESS', true);">EXPAND_SHOWPROGRESS</a></tt></li>
+			<li><tt><a href="../ai/Art.html#EXPAND_STROKE" onClick="return toggleMember('EXPAND_STROKE', true);">EXPAND_STROKE</a></tt></li>
+			<li><tt><a href="../ai/Art.html#EXPAND_SYMBOLINSTANCES" onClick="return toggleMember('EXPAND_SYMBOLINSTANCES', true);">EXPAND_SYMBOLINSTANCES</a></tt></li>
+			<li><tt><a href="../ai/Art.html#EXPAND_TEXT" onClick="return toggleMember('EXPAND_TEXT', true);">EXPAND_TEXT</a></tt></li>
+			<li><tt><a href="../ai/Art.html#KNOCKOUT_INHERIT" onClick="return toggleMember('KNOCKOUT_INHERIT', true);">KNOCKOUT_INHERIT</a></tt></li>
+			<li><tt><a href="../ai/Art.html#KNOCKOUT_OFF" onClick="return toggleMember('KNOCKOUT_OFF', true);">KNOCKOUT_OFF</a></tt></li>
+			<li><tt><a href="../ai/Art.html#KNOCKOUT_ON" onClick="return toggleMember('KNOCKOUT_ON', true);">KNOCKOUT_ON</a></tt></li>
+			<li><tt><a href="../ai/Art.html#KNOCKOUT_UNKNOWN" onClick="return toggleMember('KNOCKOUT_UNKNOWN', true);">KNOCKOUT_UNKNOWN</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ORDER_ABOVE" onClick="return toggleMember('ORDER_ABOVE', true);">ORDER_ABOVE</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ORDER_ANCHESTOR" onClick="return toggleMember('ORDER_ANCHESTOR', true);">ORDER_ANCHESTOR</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ORDER_BELOW" onClick="return toggleMember('ORDER_BELOW', true);">ORDER_BELOW</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ORDER_INSIDE" onClick="return toggleMember('ORDER_INSIDE', true);">ORDER_INSIDE</a></tt></li>
+			<li><tt><a href="../ai/Art.html#ORDER_UNKNOWN" onClick="return toggleMember('ORDER_UNKNOWN', true);">ORDER_UNKNOWN</a></tt></li>
+			<li><tt><a href="../ai/Art.html#TRANSFORM_CHILDREN" onClick="return toggleMember('TRANSFORM_CHILDREN', true);">TRANSFORM_CHILDREN</a></tt></li>
+			<li><tt><a href="../ai/Art.html#TRANSFORM_FILL_GRADIENTS" onClick="return toggleMember('TRANSFORM_FILL_GRADIENTS', true);">TRANSFORM_FILL_GRADIENTS</a></tt></li>
+			<li><tt><a href="../ai/Art.html#TRANSFORM_FILL_PATTERNS" onClick="return toggleMember('TRANSFORM_FILL_PATTERNS', true);">TRANSFORM_FILL_PATTERNS</a></tt></li>
+			<li><tt><a href="../ai/Art.html#TRANSFORM_LINES" onClick="return toggleMember('TRANSFORM_LINES', true);">TRANSFORM_LINES</a></tt></li>
+			<li><tt><a href="../ai/Art.html#TRANSFORM_LINKED_MASKS" onClick="return toggleMember('TRANSFORM_LINKED_MASKS', true);">TRANSFORM_LINKED_MASKS</a></tt></li>
+			<li><tt><a href="../ai/Art.html#TRANSFORM_OBJECTS" onClick="return toggleMember('TRANSFORM_OBJECTS', true);">TRANSFORM_OBJECTS</a></tt></li>
+			<li><tt><a href="../ai/Art.html#TRANSFORM_SELECTION_ONLY" onClick="return toggleMember('TRANSFORM_SELECTION_ONLY', true);">TRANSFORM_SELECTION_ONLY</a></tt></li>
+			<li><tt><a href="../ai/Art.html#TRANSFORM_STROKE_PATTERNS" onClick="return toggleMember('TRANSFORM_STROKE_PATTERNS', true);">TRANSFORM_STROKE_PATTERNS</a></tt></li>
+			<li><tt><a href="../ai/Art.html#appendChild(com.scriptographer.ai.Art)" onClick="return toggleMember('appendChild(com.scriptographer.ai.Art)', true);">appendChild(art)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#clone()" onClick="return toggleMember('clone()', true);">clone()</a></tt></li>
+			<li><tt><a href="../ai/Art.html#copyTo(com.scriptographer.ai.Document)" onClick="return toggleMember('copyTo(com.scriptographer.ai.Document)', true);">copyTo(document)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#copyTo(com.scriptographer.ai.Art)" onClick="return toggleMember('copyTo(com.scriptographer.ai.Art)', true);">copyTo(art)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#equals(java.lang.Object)" onClick="return toggleMember('equals(java.lang.Object)', true);">equals(obj)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#expand(int, int)" onClick="return toggleMember('expand(int, int)', true);">expand(flags, steps)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#hasChildren()" onClick="return toggleMember('hasChildren()', true);">hasChildren()</a></tt></li>
+			<li><tt><a href="../ai/Art.html#hitTest(com.scriptographer.ai.Point, int, float)" onClick="return toggleMember('hitTest(com.scriptographer.ai.Point, int, float)', true);">hitTest(point[, type[, tolerance]])</a></tt></li>
+			<li><tt><a href="../ai/Art.html#isAbove(com.scriptographer.ai.Art)" onClick="return toggleMember('isAbove(com.scriptographer.ai.Art)', true);">isAbove(art)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#isAncestor(com.scriptographer.ai.Art)" onClick="return toggleMember('isAncestor(com.scriptographer.ai.Art)', true);">isAncestor(art)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#isBelow(com.scriptographer.ai.Art)" onClick="return toggleMember('isBelow(com.scriptographer.ai.Art)', true);">isBelow(art)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#isDefaultName()" onClick="return toggleMember('isDefaultName()', true);">isDefaultName()</a></tt></li>
+			<li><tt><a href="../ai/Art.html#isInside(com.scriptographer.ai.Art)" onClick="return toggleMember('isInside(com.scriptographer.ai.Art)', true);">isInside(art)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#moveAbove(com.scriptographer.ai.Art)" onClick="return toggleMember('moveAbove(com.scriptographer.ai.Art)', true);">moveAbove(art)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#moveBelow(com.scriptographer.ai.Art)" onClick="return toggleMember('moveBelow(com.scriptographer.ai.Art)', true);">moveBelow(art)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#rasterize(int, float, int, float, float)" onClick="return toggleMember('rasterize(int, float, int, float, float)', true);">rasterize(type[, resolution, antialiasing[, width, height]])</a></tt></li>
+			<li><tt><a href="../ai/Art.html#remove()" onClick="return toggleMember('remove()', true);">remove()</a></tt></li>
+			<li><tt><a href="../ai/Art.html#rotate(double, float, float)" onClick="return toggleMember('rotate(double, float, float)', true);">rotate(theta[, x, y])</a></tt></li>
+			<li><tt><a href="../ai/Art.html#rotate(double, com.scriptographer.ai.Point)" onClick="return toggleMember('rotate(double, com.scriptographer.ai.Point)', true);">rotate(theta, anchor)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#scale(double, double)" onClick="return toggleMember('scale(double, double)', true);">scale(scale[, sy])</a></tt></li>
+			<li><tt><a href="../ai/Art.html#shear(double, double)" onClick="return toggleMember('shear(double, double)', true);">shear(shx, shy)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#toString()" onClick="return toggleMember('toString()', true);">toString()</a></tt></li>
+			<li><tt><a href="../ai/Art.html#transform(com.scriptographer.ai.Matrix, int)" onClick="return toggleMember('transform(com.scriptographer.ai.Matrix, int)', true);">transform(matrix[, flags])</a></tt></li>
+			<li><tt><a href="../ai/Art.html#translate(double, double)" onClick="return toggleMember('translate(double, double)', true);">translate(tx, ty)</a></tt></li>
+			<li><tt><a href="../ai/Art.html#translate(com.scriptographer.ai.Point)" onClick="return toggleMember('translate(com.scriptographer.ai.Point)', true);">translate(t)</a></tt></li>
+			</ul>
+	</li>
+</ul>
+
+
+<p class="footer">Copyright &#169; 2001-2007 J&uuml;rg Lehni, <a href=http://www.scratchdisk.com target=_blank>Scratchdisk.com</a>. All Rights Reserved.</p>
+</body>
+</html>

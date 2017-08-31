@@ -1,0 +1,309 @@
+.section-order-page {
+  padding: 1.5em 0 5em 0;
+}
+
+.section-price-chart {
+  background-color: #f5f8fb;
+  padding: 25px 0;
+}
+
+.footer-list-holder {
+  padding: 1em 0;
+  border-right: 1px solid #404040;
+}
+
+.footer-holder {
+  background-color: #2e2e2e;
+  padding: 2em 0 4em;
+
+  .form-group {
+    display: block;
+
+    label {
+      color: #999999;
+      font-family: @proxima-reg;
+      font-size: 14px;
+    }
+
+    .form-control {
+      background-color: #212121;
+      border: 0;
+      width: 54%;
+      margin-left: 10px;
+      padding: 12px 17px;
+    }
+  }
+
+  .btn-submit {
+    position: absolute;
+    right: 5%;
+    background-color: transparent;
+    border: 0;
+    color: #b0b0b0;
+    top: 50%;
+    .translate(0,-50%);
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .col-md-4:last-child {
+    .footer-list-holder {
+      border-right: 0;
+    }
+  }
+}
+
+.logo-footer {
+  padding-bottom: 40px;
+}
+
+.operation-hours {
+  p {
+    color: #999999;
+  }
+
+  .schedule-list {
+    p {
+      color: @white;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.sales-toll-holder {
+  padding-top: 1.5em;
+
+  .phone-icon {
+    .fa {
+      color: #676767;
+      font-size: 35px;
+      padding-top: 15px;
+    }
+  }
+
+  .toll-holder {
+    p {
+      color: #999999;
+      font-family: @proxima-reg;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    span {
+      font-size: 18px;
+      color: @white;
+    }
+  }
+}
+
+.footer-top {
+  padding-bottom: 1em;
+}
+
+.footer-bottom {
+  border-top: 1px solid #404040;
+  padding-top: 4em;
+}
+
+.footer-bottom-list {
+  width: 49%;
+  display: inline-block;
+
+  h4 {
+    color: @white;
+    font-family: @proxima-semi;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 2em;
+  }
+
+  ul {
+    li {
+      display: block;
+      margin-bottom: 5px;
+
+      a {
+        color: #999999;
+        font-family: @proxima-semi;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.footer-bottom-copy {
+  background-color: #212121;
+  padding: 2em 0;
+}
+
+.copyright {
+  float: left;
+
+  p {
+    color: #999999;
+    font-size: 13px;
+  }
+}
+
+.card-list {
+  float: right;
+
+  ul {
+    li {
+      color: #999999;
+      font-size: 13px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.service-section {
+  background-color: #f3f7fa;
+  padding: 20px 0;
+
+  .service-icon {
+    margin: auto;
+    height: 88px;
+    background-size: initial;
+  }
+
+  .service-label {
+    p {
+      text-align: center;
+      color: #202020;
+      font-size: 16px;
+      font-family: @proxima-reg;
+    }
+  }
+}
+
+.section-content {
+  padding: 4em 0;
+}
+
+.style-content {
+  padding-top: 4em;
+
+  h2 {
+   font-family: @proxima-semi;
+   font-size: 36px;
+   color: @white;
+   margin-bottom: 15px;
+  }
+  p {
+    color: @white;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  a {
+    background-color: #ff6100;
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: @white;
+    font-family: @proxima-semi;
+
+    .fa-caret-right {
+      margin-left: 10px;
+    }
+  }
+}
+
+.style-bg {
+  height: 603px;
+  background-size: contain;
+}
+
+.section-promotion {
+  h2 {
+    font-family: @proxima-semi;
+    font-size: 40px;
+    color: #00b9ff;
+    margin-bottom: .8em;
+    padding-bottom: 1.2em;
+    position: relative;
+
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      border: 1px solid #dbeff7;
+      right: 50%;
+      width: 70px;
+      bottom: 0;
+      height: 4px;
+      border-left: 0;
+      border-right: 0;
+    }
+
+    &:after {
+      background-color: #00adef;
+      left: 50%;
+    }
+  }
+  p {
+    color: #202020;
+    font-size: 17px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 2em;
+
+    span {
+      font-family: @proxima-bold;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.client-section {
+  background-color: #f5f8fb;
+  text-align: center;
+
+  h2 {
+    color: #00adef;
+    font-size: 40px;
+    font-family: @proxima-semi;
+  }
+  .owl-carousel {
+    padding: 3em 0;
+  }
+}
+
+.review-content {
+  margin: auto;
+  display: table;
+  text-align: center;
+
+  h4 {
+    color: @white;
+    font-size: 30px;
+    font-family: @proxima-light;
+  }
+}
+
+.review-desc {
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+  p {
+    font-size: 16px;
+    color: @white;
+    margin-bottom: 0;
+    line-height: 23px;
+  }
+}
+
+.review-bg {
+  background-color: #00adef;
+  padding-bottom: 0;
+}
+
+.bg-review-holder {
+  padding-top: 4em;
+}

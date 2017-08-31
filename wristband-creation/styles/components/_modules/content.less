@@ -1,0 +1,258 @@
+.wristband-view {
+  padding-top: 30px!important;
+
+  .wristband-holder {
+    padding-bottom: 15px;
+  }
+}
+
+.col-wristband {
+  padding: 0 20px;
+}
+
+.note-content {
+  padding-top: 15px;
+  max-width: 500px;
+  margin: auto;
+  padding-bottom: 25px;
+
+  p {
+    font-family: @proxima-reg;
+    font-size: 14px;
+    color: #606060;
+    line-height: 18px;
+  }
+}
+
+.total-details {
+  border-top: 1px solid #e5eaf0;
+
+  h1 {
+    color: #00b9ff;
+    font-size: 48px;
+    font-family: @proxima-bold;
+    text-align: center;
+  }
+
+  p {
+    font-family: @proxima-semi;
+    font-size: 14px;
+    color: #202020;
+
+    span {
+      color: #21ace1;
+    }
+  }
+
+  .btn-add-to-cart {
+    padding-top: 5px;
+    padding-bottom: 26px;
+
+    .btn-add {
+      background-color: #ff5800;
+      font-size: 18px;
+      font-family: @proxima-bold;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      padding: 12px 25px;
+      border-radius: 40px;
+      border: 8px solid #f3e4e7;
+    }
+  }
+}
+
+.clipart-btn {
+  .form-clipart {
+    label {
+      color: #606060;
+      font-size: 11px;
+      font-family: @proxima-bold;
+      margin: 5px auto;
+      display: table;
+    }
+  }
+}
+
+.modal-header {
+  padding: 15px 25px;
+
+  .close {
+    color: @body-color;
+    font-size: 28px;
+    font-family: @proxima-bold;
+    .opacity(1);
+    text-shadow: none;
+
+     &:focus {
+       outline: none;
+     }
+  }
+}
+
+.modal-title {
+  font-size: 20px;
+}
+
+.modal-content {
+  .select-add {
+    background-color: #e5eaf0;
+    padding: 10px 25px;
+
+    h4 {
+      font-size: 14px;
+      color: @body-color;
+      font-family: @proxima-semi;
+
+      .upload-file {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.checkbox {
+  position: relative;
+
+  .options-hover {
+    display: none;
+    width: 300px;
+    background-color: #fff;
+    position: absolute;
+    top: -470%;
+    left: -40%;
+    padding: 25px 18px;
+    .box-shadow(0px 0px 5px 1px rgba(0,0,0,0.1));
+
+    .options-img {
+      position: absolute;
+      width: 79px;
+      height: 52px;
+      margin-top: 10px;
+    }
+
+    .options-desc {
+      margin-left: 6.5em;
+
+      p {
+        font-size: 14px;
+        line-height: 17px;
+        color: @body-color;
+      }
+    }
+
+    &:before {
+      content: '';
+      border-left: 9px solid transparent;
+      border-right: 9px solid transparent;
+      border-top: 12px solid #fff;
+      position: absolute;
+      bottom: -9px;
+      right: 24px;
+    }
+  }
+}
+
+.hover1 {
+  .options-hover {
+    display: block;
+  }
+}
+
+.wristband-header {
+  h1 {
+    color: #202020;
+    font-family: @proxima-semi;
+    font-size: 48px;
+  }
+  p {
+    font-size: 18px;
+    font-family: @proxima-reg;
+    color: #afafaf;
+    max-width: 800px;
+    margin: auto;
+    line-height: 28px;
+  }
+}
+
+.wristband-img-holder {
+  img {
+    margin: auto;
+    display: table;
+  }
+}
+
+.wristband--holder {
+  padding: 4em 0;
+
+  .col-md-4 {
+    a {
+      display: block;
+      margin-bottom: 5em;
+
+      &:hover {
+        .wristband-overlay {
+          background-color: #00adef;
+          .opacity(.80);
+        }
+        .fa-plus-circle {
+          .opacity(1);
+        }
+      }
+    }
+  }
+}
+
+.wristband-desc-holder {
+  padding-top: 1em;
+  h3 {
+    color: #202020;
+    font-family: @proxima-reg;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  p {
+    color: #00adef;
+    font-family: @proxima-reg;
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  btn {
+    background-color: #ff6100;
+    font-size: 14px;
+    color: @white;
+    text-transform: uppercase;
+    font-family: @proxima-bold;
+    letter-spacing: 3px;
+    padding: 8px 20px;
+  }
+}
+
+.wristband-img-holder {
+  background-size: contain;
+  height: 173px;
+  position: relative;
+  width: 319px;
+  margin: auto;
+}
+
+.wristband-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  .transition(all 0.3s ease-in-out 0s);
+
+  .fa-plus-circle {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    .translate(-50%,-50%);
+    color: @white;
+    font-size: 60px;
+    .opacity(0);
+    .transition(all 0.3s ease-in-out 0s);
+  }
+}

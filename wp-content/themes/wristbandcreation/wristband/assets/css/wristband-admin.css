@@ -1,0 +1,26 @@
+.wbc_hide-toggle .handlediv {
+    display:none;
+}
+
+#TB_ajaxContent h2.separator:before {
+    margin-top: 11px;
+    display: inline-block;
+    margin: 0 10px 8px 0;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px;
+}
+
+
+#TB_ajaxContent h2.separator:after {
+    margin-top: 11px;
+    display: inline-block;
+    margin: 0 0 8px 10px;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px;
+}

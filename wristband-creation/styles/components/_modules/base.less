@@ -1,0 +1,83 @@
+// ==================================================================================
+// Base
+// ==================================================================================
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  font-family: @proxima-reg;
+  line-height: 1.8;
+  color: @body-color;
+}
+
+p {
+  margin-bottom: 1em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+a {
+  font-family: @proxima-semi;
+  .transition(all ease-in-out .3s);
+  color: @white;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+// tags
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+h6 {
+  font-size: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: @proxima-reg;
+  color: #202020;
+  margin: 10px 0;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+// List
+ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+
+  li {
+    display: inline-block;
+    vertical-align: top;
+
+    a {
+      display: block;
+    }
+  }
+}

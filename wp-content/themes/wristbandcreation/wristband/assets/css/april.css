@@ -1,0 +1,70 @@
+/*LANYARD SECTION*/
+.section-lanyard ol.carousel-indicators {text-align: center;}
+
+/*ABOUT US*/
+#section-about .row:nth-child(2) .about-wrist { text-align: left; }
+#section-about .row:nth-child(2) .about-wrist-img { position: relative; top: 4em; }
+
+/* ABOUT US */
+.copy-map-wrap{margin-bottom: -10px;}
+.copy-map-wrap iframe{width: 100%;}
+.about-wrist-text{margin-top: 20px;}
+#about-map{margin-top: 2em; border: 1px solid #dddddd;}
+.about-contact-content{margin-bottom: 30px;}
+.about-contact{width: 300px;}
+.about-contact-content .sign{float:left; margin-top: -4px;}
+.about-contact-content .sign .fa{color: #ff6100; margin-right: 20px; font-size: 25px;}
+.about-contact-content .sign-content.line-height{line-height:25px;}
+.about-contact-content .sign-content, .about-contact .sign-content a{color: #a6a6a6; font: 17px 'ProximaNovaReg';}
+#about-map .about-contact{position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);}
+.contact-con{height: 450px;}
+#section-about .about-wrist-text a{color: black;}
+#section-about .about-wrist-text a:hover,
+#section-about .about-wrist-text a:focus , #section-about .sign-content a:hover , #section-about .sign-content a:focus{cursor: pointer;}
+
+/*BREAST CNACER*/
+.copy-pack-box .copy-block { margin-bottom: 0; }
+
+@media(max-width: 1024px){
+}
+/*IPAD*/
+@media (max-width: 991px) {
+	.page-samples .img-wrap { width: 500px; height: 180px; margin: 0 auto; }
+	.page-samples .img-item { width: auto; }
+	.page-samples textarea { margin: 2em auto; }
+	.contact-con{height: 120px;}
+	#about-map{border:none;}
+	.section-about{padding-bottom: 0px;}
+	#about-map .about-contact{top: 34%; left: 0; padding: 0px 20px 0px 40px; transform: none;}
+	.about-contact{width: 100%; display: inline-flex;}
+	.about-contact .about-contact-content{width: 33.33%;}
+	.bg-blue-about .btn-about{margin-bottom: 20px;}
+}
+@media(max-width: 768px){
+	#section-about .row:nth-child(2) .about-wrist-img {top: 0;}
+	#section-about .row:nth-child(2) .about-wrist-img .about-img { height: 250px; }
+}
+@media(max-width: 676px){
+	.contact-con{height: 200px;}
+	#about-map .about-contact{top: 63%;left: 50%;transform: translate(-50%, -50%);}
+	.about-contact .about-contact-content{width: 100%;}
+	.about-contact{width: 330px;display: block;}
+}
+@media (max-width: 667px) {
+	#section-about .row:nth-child(2) .about-wrist-img .about-img { height: 220px; }
+}
+@media(max-width: 640px){
+	.about-img{height: 280px;}
+}
+/*PHONE LANDSCAPE*/
+@media (max-width: 568px) {
+	.page-samples .img-wrap {width: 100%;height: 140px;}
+	.page-samples textarea {width: 100%;}
+}
+@media(max-width: 480px){
+	.about-img{background-position: center 0px;}
+	#section-about .row:nth-child(2) .about-wrist-img .about-img { height: 130px; }
+}	
+@media(max-width: 414px){
+	.about-img{height: 200px;}
+}
